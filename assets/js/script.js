@@ -2,7 +2,7 @@ const gamearea = document.querySelector('.gamearea')
 const blockWidth = 70
 const blockHeight = 20
 const paddleStart = [190,10]
-const gameAreaWidth = 520
+const gameAreaWidth = 500
 const gameAreaHeight = 400
 const paddleWidth = 100
 const paddleHeight = 20
@@ -81,7 +81,7 @@ function movePaddle(e) {
     switch(e.key) {
         case 'ArrowLeft':
             if (currentPosition[0] > 0) {
-            currentPosition[0] -= 15;
+            currentPosition[0] -= 10;
             drawPaddle();
         }
 
@@ -89,10 +89,14 @@ function movePaddle(e) {
 
         case 'ArrowRight':
             if (currentPosition[0] < gameAreaWidth - paddleWidth) {
-            currentPosition[0] += 15;
+            currentPosition[0] += 10;
             drawPaddle();
         }
         break;
     }
 }
 document.addEventListener('keydown', movePaddle);
+
+const ball = document.createElement('div')
+ball.classList.add('ball');
+gamearea.appendChild(ball);

@@ -1,13 +1,13 @@
 .scoreboard {
     background-color:rgb(12, 12, 136);
     color:aliceblue;
-    width: 520px;
+    width: 500px;
     height: 60px;
 }
 
 .gamearea {
     background-color:rgb(78, 172, 255);
-    width: 520px;
+    width: 500px;
     height: 400px;
     position: absolute;
 }
@@ -16,6 +16,9 @@
     background-color:rgb(190, 11, 214);
     width: 70px;
     height: 20px;
+    border-style: groove;
+    border-radius: 2px;
+    border-color: rgb(227, 42, 252);
     position: absolute;
 }
 
@@ -23,12 +26,15 @@
     background-color: white;
     width: 15px;
     height: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
+    border-style: inset;
+    position: absolute;
 }
 
 .paddle {
-    background-color: black;
+    background-color: rgb(236, 236, 236);
     width: 100px;
     height: 20px;
+    border-radius: 2px;
     position: absolute;
 }
