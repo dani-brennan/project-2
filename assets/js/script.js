@@ -6,8 +6,10 @@ const gameAreaWidth = 500
 const gameAreaHeight = 400
 const paddleWidth = 100
 const paddleHeight = 20
+const ballStart = [230,35]
 
 let currentPosition = paddleStart
+let ballPosition = ballStart
 
 //create block
 class block {
@@ -97,6 +99,23 @@ function movePaddle(e) {
 }
 document.addEventListener('keydown', movePaddle);
 
+//draw ball
+function drawBall() {
+    ball.style.left = ballPosition[0] + 'px'
+    ball.style.bottom = ballPosition[1] + 'px'}
+
+//ball
 const ball = document.createElement('div')
 ball.classList.add('ball');
+drawBall()
+
 gamearea.appendChild(ball);
+
+//move ball
+function moveBall() {
+    ballPosition[0] += 2;
+    ballPosition[1] += 2;
+    drawBall();
+
+}
+setInterval(moveBall, 20)
