@@ -18,3 +18,16 @@
     height: 20px;
     position: absolute;
 }
+
+.ball {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.paddle {
+    background-color: black;
+    width: 100px;
+    height: 20px;
+}
