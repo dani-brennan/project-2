@@ -1,7 +1,12 @@
 const gamearea = document.querySelector('.gamearea')
 const blockWidth = 70
 const blockHeight = 20
-const paddleStart = [200,10]
+const paddleStart = [190,10]
+const gameAreaWidth = 520
+const gameAreaHeight = 400
+const paddleWidth = 100
+const paddleHeight = 20
+
 let currentPosition = paddleStart
 
 //create block
@@ -57,10 +62,37 @@ gamearea.appendChild(block)
 
 buildBlocks()
 
-//paddle
+//create paddle
 
 const paddle = document.createElement('div')
 paddle.classList.add('paddle')
+drawPaddle()
+gamearea.appendChild(paddle)
+
+
+//draw paddle
+function drawPaddle () {
 paddle.style.left = currentPosition[0] + 'px'
 paddle.style.bottom = currentPosition[1] + 'px'
-gamearea.appendChild(paddle)
+}
+
+//move paddle
+function movePaddle(e) {
+    switch(e.key) {
+        case 'ArrowLeft':
+            if (currentPosition[0] > 0) {
+            currentPosition[0] -= 15;
+            drawPaddle();
+        }
+
+        break;
+
+        case 'ArrowRight':
+            if (currentPosition[0] < gameAreaWidth - paddleWidth) {
+            currentPosition[0] += 15;
+            drawPaddle();
+        }
+        break;
+    }
+}
+document.addEventListener('keydown', movePaddle);
