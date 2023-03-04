@@ -1,6 +1,8 @@
 const gamearea = document.querySelector('.gamearea')
 const blockWidth = 70
 const blockHeight = 20
+const paddleStart = [200,10]
+let currentPosition = paddleStart
 
 //create block
 class block {
@@ -54,3 +56,11 @@ gamearea.appendChild(block)
 }
 
 buildBlocks()
+
+//paddle
+
+const paddle = document.createElement('div')
+paddle.classList.add('paddle')
+paddle.style.left = currentPosition[0] + 'px'
+paddle.style.bottom = currentPosition[1] + 'px'
+gamearea.appendChild(paddle)
