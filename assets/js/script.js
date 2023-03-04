@@ -119,3 +119,15 @@ function moveBall() {
 
 }
 setInterval(moveBall, 20)
+
+
+
+function collision() {
+    //if the ball hits the wall
+    if (ballPosition[0] >= (gameAreaWidth - 15) ||
+        ballPosition[1] >= (gameAreaHeight - 15))
+    
+    {
+        changeDirection()
+    }
+}
