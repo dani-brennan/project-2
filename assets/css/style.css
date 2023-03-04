@@ -9,4 +9,12 @@
     background-color:rgb(78, 172, 255);
     width: 500px;
     height: 400px;
+    position: absolute;
+}
+
+.block {
+    background-color:rgb(190, 11, 214);
+    width: 80px;
+    height: 20px;
+    position: absolute;
 }
