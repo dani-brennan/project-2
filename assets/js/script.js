@@ -1,5 +1,5 @@
 const gamearea = document.querySelector('.gamearea')
-const blockWidth = 80
+const blockWidth = 70
 const blockHeight = 20
 
 //create block
@@ -15,7 +15,28 @@ class block {
 
 //all blocks 
 const blocks = [
-    new block(10,370)
+    //first row
+    new block(10,370),
+    new block(90,370),
+    new block(170,370),
+    new block(250,370),
+    new block(330,370),
+    new block(410,370),
+    //second row
+    new block(10,340),
+    new block(90,340),
+    new block(170,340),
+    new block(250,340),
+    new block(330,340),
+    new block(410,340),
+    //third row
+    new block(10,310),
+    new block(90,310),
+    new block(170,310),
+    new block(250,310),
+    new block(330,310),
+    new block(410,310),
+
 ]
 
 console.log(blocks[0])
