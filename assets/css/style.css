@@ -1,3 +1,12 @@
-body {
-    background-color: blue;
+.scoreboard {
+    background-color:rgb(12, 12, 136);
+    color:aliceblue;
+    width: 500px;
+    height: 60px;
+}
+
+.gamearea {
+    background-color:rgb(78, 172, 255);
+    width: 500px;
+    height: 400px;
 }
