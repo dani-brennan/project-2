@@ -7,9 +7,16 @@ const gameAreaHeight = 400
 const paddleWidth = 100
 const paddleHeight = 20
 const ballStart = [230,35]
+const ballDiameter = 15
+const scoreboard = document.querySelector('.scoreboard')
+
+let xDirection = 2
+let yDirection = 2
 
 let currentPosition = paddleStart
 let ballPosition = ballStart
+
+let timerId
 
 //create block
 class block {
@@ -68,9 +75,8 @@ buildBlocks()
 
 const paddle = document.createElement('div')
 paddle.classList.add('paddle')
-drawPaddle()
 gamearea.appendChild(paddle)
-
+drawPaddle()
 
 //draw paddle
 function drawPaddle () {
@@ -83,21 +89,21 @@ function movePaddle(e) {
     switch(e.key) {
         case 'ArrowLeft':
             if (currentPosition[0] > 0) {
-            currentPosition[0] -= 10;
-            drawPaddle();
+            currentPosition[0] -= 10
+            drawPaddle()
         }
 
         break;
 
         case 'ArrowRight':
             if (currentPosition[0] < gameAreaWidth - paddleWidth) {
-            currentPosition[0] += 10;
-            drawPaddle();
+            currentPosition[0] += 10
+            drawPaddle()
         }
         break;
     }
 }
-document.addEventListener('keydown', movePaddle);
+document.addEventListener('keydown', movePaddle)
 
 //draw ball
 function drawBall() {
@@ -106,28 +112,72 @@ function drawBall() {
 
 //ball
 const ball = document.createElement('div')
-ball.classList.add('ball');
+ball.classList.add('ball')
 drawBall()
 
-gamearea.appendChild(ball);
+gamearea.appendChild(ball)
 
 //move ball
 function moveBall() {
-    ballPosition[0] += 2;
-    ballPosition[1] += 2;
-    drawBall();
+    ballPosition[0] += xDirection
+    ballPosition[1] += yDirection
+    drawBall()
+    collision()
 
 }
-setInterval(moveBall, 20)
+timerId = setInterval(moveBall, 20)
 
+function changeDirection() {
+    if (xDirection === 2 && yDirection === 2) {
+      yDirection = -2
+      return
+    }
+    if (xDirection === 2 && yDirection === -2) {
+      xDirection = -2
+      return
+    }
+    if (xDirection === -2 && yDirection === -2) {
+      yDirection = 2
+      return
+    }
+    if (xDirection === -2 && yDirection === 2) {
+      xDirection = 2
+      return
+    }
+}
 
-
+//collision detection
 function collision() {
+    //if the ball hits a block
+    for (let i=0; i < blocks.length; i++) {
+        if( 
+            (ballPosition[0] > blocks[i].bottomLeft[0] &&
+                ballPosition[0] < blocks[i].bottomRight [0]) &&
+                ((ballPosition[1] + ballDiameter) > blocks[i].bottomLeft[1] &&
+                ballPosition[1] < blocks[i].topLeft[1]) 
+        ) {
+                //remove block class
+                const blocks = Array.from(document.querySelectorAll('.block'))
+                blocks[i].classList.remove('block')
+                blocks.splice (i, 1)
+                changeDirection()
+            }
+        
+    }
     //if the ball hits the wall
-    if (ballPosition[0] >= (gameAreaWidth - 15) ||
-        ballPosition[1] >= (gameAreaHeight - 15))
-    
+    if (ballPosition[0] >= (gameAreaWidth - ballDiameter) || 
+        ballPosition[0] <= 0 ||
+        ballPosition[1] >= (gameAreaHeight - ballDiameter))
+        
     {
         changeDirection()
     }
+
+    //if ball goes out of play - game over
+    if (ballPosition[1] <= 0) {
+        clearInterval(timerId)
+        scoreboard.innerHTML = 'Game Over...'
+        document.removeEventListener('keydown'. moveUser)
+    } 
 }
+
