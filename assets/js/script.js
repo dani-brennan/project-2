@@ -18,6 +18,8 @@ let ballPosition = ballStart
 
 let timerId
 
+let score = 0
+
 //create block
 class block {
     constructor(xAxis, yAxis) {
@@ -161,6 +163,8 @@ function collision() {
                 allBlocks[i].classList.remove('block')
                 blocks.splice (i, 1)
                 changeDirection()
+                score++
+                scoreboard.innerHTML = score
             }
         
     }
