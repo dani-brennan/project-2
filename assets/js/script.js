@@ -6,7 +6,7 @@ const gameAreaWidth = 500
 const gameAreaHeight = 400
 const paddleWidth = 100
 const paddleHeight = 20
-const ballStart = [230,35]
+const ballStart = [230,30]
 const ballDiameter = 15
 const scoreboard = document.querySelector('.scoreboard')
 
@@ -127,7 +127,7 @@ function moveBall() {
     collision()
 
 }
-timerId = setInterval(moveBall, 20)
+timerId = setInterval(moveBall, 30)
 
 function changeDirection() {
     if (xDirection === 2 && yDirection === 2) {
@@ -165,9 +165,16 @@ function collision() {
                 changeDirection()
                 score++
                 scoreboard.innerHTML = score
+                if (blocks.length === 0) {
+                    score.innerHTML = 'You win!'
+                    clearInterval(timerId)
+                    document.removeEventListener('keydown', movePaddle)
+                }
             }
         
     }
+
+   
     //if the ball hits the wall
     if (ballPosition[0] >= (gameAreaWidth - ballDiameter) || 
         ballPosition[0] <= 0 ||
@@ -177,11 +184,26 @@ function collision() {
         changeDirection()
     }
 
+    //if the ball hits the paddle
+    if ((ballPosition[0] > currentPosition[0] &&
+    ballPosition[0] < currentPosition[0] + paddleWidth) 
+    &&
+    (ballPosition[1] > currentPosition[1] && 
+    ballPosition[1] < currentPosition[1] + paddleHeight))
+    {
+        changeDirection()
+    }
+
+
+
+
+
+
     //if ball goes out of play - game over
     if (ballPosition[1] <= 0) {
         clearInterval(timerId)
         scoreboard.innerHTML = 'Game Over...'
-        document.removeEventListener('keydown'. moveUser)
+        document.removeEventListener('keydown'. movePaddle)
     } 
 }
 
