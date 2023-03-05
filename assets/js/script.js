@@ -149,7 +149,7 @@ function changeDirection() {
 //collision detection
 function collision() {
     //if the ball hits a block
-    for (let i=0; i < blocks.length; i++) {
+    for (let i = 0; i < blocks.length; i++) {
         if( 
             (ballPosition[0] > blocks[i].bottomLeft[0] &&
                 ballPosition[0] < blocks[i].bottomRight [0]) &&
@@ -157,8 +157,8 @@ function collision() {
                 ballPosition[1] < blocks[i].topLeft[1]) 
         ) {
                 //remove block class
-                const blocks = Array.from(document.querySelectorAll('.block'))
-                blocks[i].classList.remove('block')
+                const allBlocks = Array.from(document.querySelectorAll('.block'))
+                allBlocks[i].classList.remove('block')
                 blocks.splice (i, 1)
                 changeDirection()
             }
