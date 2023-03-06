@@ -19,6 +19,7 @@ let ballPosition = ballStart
 let timerId
 
 let score = 0
+let lives = 3
 
 //create block
 class block {
@@ -178,7 +179,7 @@ function collision() {
                 score++
                 scoreboard.innerHTML = score
                 if (blocks.length === 0) {
-                    score.innerHTML = 'You win!'
+                    scoreboard.innerHTML = 'You win!'
                     clearInterval(timerId)
                     document.removeEventListener('keydown', movePaddle)
                 }
@@ -206,12 +207,11 @@ function collision() {
         changeDirection()
     }
 
-
-    //if ball goes out of play - game over
-    if (ballPosition[1] <= 0) {
+    //game over
+    if (ballPosition[1] <= 0 ) {
         clearInterval(timerId)
         scoreboard.innerHTML = 'Game Over...'
-        document.removeEventListener('keydown', movePaddle)
+        document.removeEventListener('keydown', movePaddle) 
     } 
 }
 
