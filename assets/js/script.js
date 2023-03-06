@@ -208,7 +208,7 @@ function collision() {
     }
 
     //game over
-    if (ballPosition[1] <= 0 ) {
+    if (ballPosition[1] <= 0) {
         clearInterval(timerId)
         scoreboard.innerHTML = 'Game Over...'
         document.removeEventListener('keydown', movePaddle) 

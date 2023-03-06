@@ -6,6 +6,7 @@
     font-size: large;
     text-align: center;
     padding-top: 10px;
+    display: block;
 }
 .lives {
     float: right;
@@ -17,8 +18,16 @@
     width: 500px;
     height: 400px;
     position: absolute;
+    display: block;
 }
-
+.menu {
+    background-color: green;
+    color: green;
+    height: 80px;
+    width: 500px;
+    display: block;
+    margin-top: 400px;
+}
 .block {
     background-color:rgb(190, 11, 214);
     width: 50px;
@@ -42,4 +51,13 @@
     height: 20px;
     border-radius: 20px;
     position: absolute;
+}
+
+/*buttons*/
+#startgame {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 3px;
+    border-radius: 5px;
+    margin-left: 50px;
 }
