@@ -25,7 +25,7 @@ let lives = 3;
 let startGame = false
 
 // Make a reset Button
-const resetButton = document.createElement('ResetGame')
+const resetButton = document.createElement('resetGame')
 resetButton.innerText = "Reset Game"
 document.body.appendChild(resetButton)
 
@@ -164,7 +164,7 @@ startButton.addEventListener('click', () => {
             collision()
 
         }
-        timerId = setInterval(moveBall, 30)
+        timerId = setInterval(moveBall, 20)
 
         function changeDirection() {
             if (xDirection === 2 && yDirection === 2) {
