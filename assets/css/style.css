@@ -7,6 +7,8 @@
     height: 35px;
     display: block;
     padding-top: 10px;
+    border-style: solid;
+    border-color:#cc0066;
 }
 
 .scoreboard {
@@ -33,6 +35,8 @@
     height: 400px;
     position: absolute;
     display: block;
+    border-style: solid;
+    border-color:#cc0066;
 }
 .menu {
     background-color: rgb(20, 20, 20);
@@ -42,6 +46,8 @@
     display: block;
     margin-top: 400px;
     text-align:center;
+    border-style: solid;
+    border-color:#cc0066;
 }
 .block {
     background-color:#000000;
