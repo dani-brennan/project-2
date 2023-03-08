@@ -51,10 +51,12 @@
 }
 
 .ball {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     width: 15px;
     height: 15px;
     border-radius: 10px;
+    border-style: solid;
+    border-color:rgb(255, 0, 149);
     position: absolute;
 }
 
