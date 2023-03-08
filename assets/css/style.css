@@ -1,3 +1,12 @@
+.title {
+    color: rgb(204, 0, 102);
+    background-color: black;
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    display: block;
+}
+
 .scoreboard {
     background-color:rgb(12, 12, 136);
     color:aliceblue;
@@ -54,7 +63,7 @@
 }
 
 /*buttons*/
-#gamestartbutton {
+#startbutton {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border: 3px;
