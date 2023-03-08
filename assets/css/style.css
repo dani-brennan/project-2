@@ -2,9 +2,11 @@
     color: rgb(204, 0, 102);
     background-color: black;
     text-align: center;
+    font-size: 130%;
     width: 500px;
-    height: 30px;
+    height: 35px;
     display: block;
+    padding-top: 10px;
 }
 
 .scoreboard {
