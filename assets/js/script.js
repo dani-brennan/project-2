@@ -25,12 +25,12 @@ let lives = 3;
 let startGame = false
 
 // Make a reset Button
-const resetButton = document.createElement('resetGame')
+const resetButton = document.createElement('button')
 resetButton.innerText = "Reset Game"
 document.body.appendChild(resetButton)
 
 // Make a start Button
-const startButton = document.createElement('startbutton')
+const startButton = document.createElement('button')
 startButton.innerText = "Start Game"
 document.body.appendChild(startButton)
 

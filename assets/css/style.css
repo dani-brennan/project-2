@@ -39,7 +39,7 @@
     border-color:#cc0066;
 }
 .menu {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(0, 0, 0);
     color: rgb(0, 119, 255);
     height: 80px;
     width: 500px;
@@ -78,10 +78,11 @@
 }
 
 /*buttons*/
-#startbutton {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: 3px;
-    border-radius: 5px;
-    margin-left: 50px;
+button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px;
+    border-style: solid;
+    border-color:#cc0066;
+    width: 253px;
 }
