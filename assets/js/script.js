@@ -34,6 +34,14 @@ const startButton = document.createElement('button');
 startButton.innerText = "Start Game";
 document.body.appendChild(startButton);
 
+function on() {
+	document.getElementById("overlay").style.display = "block";
+  }
+  
+  function off() {
+	document.getElementById("overlay").style.display = "none";
+}
+
 
 // Listen for the spacebar to be pressed
 startButton.addEventListener('keydown', (e) => {

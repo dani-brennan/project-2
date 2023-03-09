@@ -20,9 +20,27 @@
   
   <div class="menu">
     
-  
   </div>
-  <div id="overlay">
+  
+  <div id="overlay" onclick="off()">
+    <div id="instructions"><h1>Welcome to Block Game</h1>
+      <h2>Controls</h2>
+          <p>Use the left and right arrow keys to move the paddle.</p>
+          <p>Press the space bar to launch the ball.</p>
+      <list>
+        <ul>
+          <li>Use the paddle to direct the ball towards the blocks.</li>
+          <li>Make sure the ball doesn't hit the bottom or else it's gameover!</li>
+          <li>Break as many blocks as you can. The more you break the faster the ball goes!</li>
+        </ul>
+      </list>
+    </div>
+  </div>
+    
+    <div>
+      <h2>Welcome to Block Game</h2>
+      <button onclick="on()">How to play</button>
+    </div>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
