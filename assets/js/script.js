@@ -42,7 +42,6 @@ function on() {
 	document.getElementById("overlay").style.display = "none";
 }
 
-
 // Listen for the spacebar to be pressed
 startButton.addEventListener('keydown', (e) => {
 	if (e.code === "Space") {
