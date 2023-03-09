@@ -36,10 +36,17 @@ document.body.appendChild(startButton)
 
 
 // Listen for the button to be pressed
-startButton.addEventListener('click', () => {
+startButton.addEventListener('keydown', (e) => {
+    if (e.code === "Space") {
+        // Do your thing
+        
+
+        startButton.addEventListener('click', () => {
+          startButton.remove();
+        })
     // Make the start game variable true
     startGame = true
-
+    
         // If the start game variable is true and the ball is not at the bottom of the level, start the game
         if (startGame= true && !ballPosition[1] <= 0){
 
@@ -248,13 +255,5 @@ startButton.addEventListener('click', () => {
 
             
             }
-        }
+        }}
     })
-
-
-
-
-
-
-
-
