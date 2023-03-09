@@ -25,6 +25,7 @@
 .title {
     color: #ffffff;
     background-color: #000000;
+    margin: auto;
     text-align: center;
     font-family: 'Press Start 2P';
     font-size: 130%;
@@ -39,6 +40,7 @@
 .scoreboard {
     background-color:rgb(0, 0, 0);
     color:rgb(0, 153, 255);
+    margin: auto;
     width: 500px;
     height: 20px;
     font-size: 110%;
@@ -59,7 +61,8 @@
     background-color:rgb(0, 0, 0);
     width: 500px;
     height: 400px;
-    position: absolute;
+    margin: auto;
+    
     display: block;
     border-style: solid;
     border-color:#cc0066;
