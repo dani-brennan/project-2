@@ -108,3 +108,15 @@ button {
     width: 100px;
     height: 40px;
 }
+#buttontouchleft {
+    height: 40px;
+    width: 40px;
+    font-size: 5px;
+    margin-top: 430px;
+}
+#buttontouchright {
+    height: 40px;
+    width: 40px;
+    font-size: 5px;
+    margin-top: 430px;
+}

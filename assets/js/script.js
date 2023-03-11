@@ -40,13 +40,18 @@ function on() {
   function off() {
 	document.getElementById("overlay").style.display = "none";
 }
-
+function touchLeft() {
+	alert("You touched Left")
+}
+function touchRight() {
+	alert("You touched Right")
+}
 
 // Listen for the spacebar to be pressed
 startButton.addEventListener('keydown', (e) => {
 	if (e.code === "Space") {
 
-		// stop the start button from being click again
+		// stop the start button from being clicked again
 		startButton.addEventListener('click', () => {
 			startButton.remove();
 		});
