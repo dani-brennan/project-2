@@ -1,12 +1,12 @@
 const gamearea = document.querySelector('.gamearea');
 const blockWidth = 30;
 const blockHeight = 20;
-const paddleStart = [140, 170];
+const paddleStart = [125, 25];
 const gameAreaWidth = 350;
 const gameAreaHeight = 400;
 const paddleWidth = 100;
 const paddleHeight = 20;
-const ballStart = [190, 190];
+const ballStart = [125, 50];
 const ballDiameter = 15;
 const scoreboard = document.querySelector('.scoreboard');
 
@@ -77,8 +77,6 @@ startButton.addEventListener('keydown', (e) => {
 				new block(205, 370),
 				new block(255, 370),
 				new block(305, 370),
-			
-
 			];
 
 			console.log(blocks[0]);

@@ -36,6 +36,8 @@
     font-size: 105%;
     width: 350px;
     height: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     display: block;
     border-style: solid;
     border-color:#cc0066;
