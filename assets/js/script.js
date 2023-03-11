@@ -19,7 +19,6 @@ let ballPosition = ballStart;
 let timerId;
 
 let score = 0;
-let lives = 3;
 
 // Create the start game variable.
 let startGame = false;
@@ -41,6 +40,7 @@ function on() {
   function off() {
 	document.getElementById("overlay").style.display = "none";
 }
+
 
 // Listen for the spacebar to be pressed
 startButton.addEventListener('keydown', (e) => {
