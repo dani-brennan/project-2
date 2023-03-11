@@ -1,5 +1,5 @@
 const gamearea = document.querySelector('.gamearea');
-const blockWidth = 40;
+const blockWidth = 30;
 const blockHeight = 20;
 const paddleStart = [140, 170];
 const gameAreaWidth = 350;
@@ -70,7 +70,13 @@ startButton.addEventListener('keydown', (e) => {
 			//all blocks 
 			const blocks = [
 				//first row
-				new block(105, 475),
+				new block(5, 370),
+				new block(55, 370),
+				new block(105, 370),
+				new block(155, 370),
+				new block(205, 370),
+				new block(255, 370),
+				new block(305, 370),
 			
 
 			];
