@@ -11,6 +11,12 @@
     bottom: 0;
 }
 
+.blockgame {
+    margin: auto;
+    background-color: #000000;
+    width: 350px;
+}
+
 #instructions{
     color: white;
     font-size: 18px;

@@ -12,35 +12,33 @@
     
 </head >
 <body>
+  <div class="blockgame">
 
-  <div class="title">Block Game</div>
+    <div class="title">Block Game</div>
 
-  <div class="scoreboard">0
-  </div>
+    <div class="scoreboard">0</div>
   
-  <div class="gamearea"></div>
-   
-  </div>
+    <div class="gamearea"></div>
   
-  <div id="overlay" onclick="off()">
-    <div id="instructions">
-      <h2>Controls</h2>
-        <p>Use the left and right arrow keys to move the paddle.</p>
-        <p>Press the space bar to launch the ball.</p>
-        <p>Use the reset button to restart the game if you lose the ball.</p>
-      <list>
+    <div id="overlay" onclick="off()">
+      <div id="instructions">
+        <h2>Controls</h2>
+          <p>Use the left and right arrow keys to move the paddle.</p>
+          <p>Press the space bar to launch the ball.</p>
+          <p>Use the reset button to restart the game if you lose the ball.</p>
         <ul>
           <li>Use the paddle to direct the ball towards the blocks.</li>
           <li>Make sure the ball doesn't hit the bottom or else it's gameover!</li>
           <li>Break as many blocks as you can. The more you break the faster the ball goes!</li>
         </ul>
-      </list>
+      </div>
     </div>
   </div>
     
-    <div>
-      <button onclick="on()">How to play</button>
-    </div>
-    <script src="assets/js/script.js"></script>
+  <div>
+    <button onclick="on()">How to play</button>
+  </div>
+
+<script src="assets/js/script.js"></script>
 </body>
 </html>
