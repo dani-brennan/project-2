@@ -25,11 +25,10 @@
 .title {
     color: #ffffff;
     background-color: #000000;
-    margin: auto;
     text-align: center;
     font-family: 'Press Start 2P';
     font-size: 130%;
-    width: 500px;
+    width: 350px;
     height: 35px;
     display: block;
     padding-top: 10px;
@@ -40,8 +39,7 @@
 .scoreboard {
     background-color:rgb(0, 0, 0);
     color:rgb(0, 153, 255);
-    margin: auto;
-    width: 500px;
+    width: 350px;
     height: 20px;
     font-size: 110%;
     font-family: 'Press Start 2P', cursive;
@@ -59,9 +57,8 @@
 }
 .gamearea {
     background-color:rgb(0, 0, 0);
-    width: 500px;
+    width: 350px;
     height: 400px;
-    margin: auto;
     display: block;
     border-style: solid;
     border-color:#cc0066;
@@ -104,6 +101,6 @@ button {
     border-style: solid;
     border-color:#cc0066;
     margin: auto;
-    width: 253px;
+    width: 250px;
     height: 40px;
 }
