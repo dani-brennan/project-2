@@ -70,39 +70,9 @@ startButton.addEventListener('keydown', (e) => {
 			//all blocks 
 			const blocks = [
 				//first row
-				new block(5, 375),
-				new block(60, 375),
-				new block(115, 375),
-				new block(170, 375),
-				new block(225, 375),
-				new block(280, 375),
-				new block(335, 375),
-				new block(390, 375),
-				new block(445, 375),
+				new block(105, 475),
+			
 
-				//second row
-				new block(60, 350),
-				new block(115, 350),
-				new block(170, 350),
-				new block(225, 350),
-				new block(280, 350),
-				new block(335, 350),
-				new block(390, 350),
-
-				//third row
-				new block(115, 325),
-				new block(170, 325),
-				new block(225, 325),
-				new block(280, 325),
-				new block(335, 325),
-
-				//fourth row
-				new block(170, 300),
-				new block(225, 300),
-				new block(280, 300),
-
-				//fifth row
-				new block(225, 275),
 			];
 
 			console.log(blocks[0]);
