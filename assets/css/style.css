@@ -55,11 +55,7 @@
     border-color:#cc0066;
     display: block;
 }
-.lives {
-    float: right;
-    color:aliceblue;
-    
-}
+
 .gamearea {
     background-color:rgb(0, 0, 0);
     width: 350px;
@@ -106,7 +102,6 @@ button {
     border: 2px;
     border-style: solid;
     border-color:#cc0066;
-    margin: auto;
-    width: 150px;
+    width: 100px;
     height: 40px;
 }
