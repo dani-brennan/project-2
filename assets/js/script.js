@@ -105,6 +105,9 @@ startButton.addEventListener('keydown', (e) => {
 				paddle.style.left = currentPosition[0] + 'px';
 				paddle.style.bottom = currentPosition[1] + 'px';
 			}
+			//move paddle touchscreen
+			document.querySelector('.paddle').addEventListener('touchmove', movePaddle)
+			
 
 			//move paddle
 			function movePaddle(e) {
