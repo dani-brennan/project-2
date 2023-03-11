@@ -60,6 +60,7 @@
     width: 350px;
     height: 400px;
     display: block;
+    position: absolute;
     border-style: solid;
     border-color:#cc0066;
 }

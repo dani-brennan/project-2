@@ -1,12 +1,12 @@
 const gamearea = document.querySelector('.gamearea');
 const blockWidth = 40;
 const blockHeight = 20;
-const paddleStart = [190, 10];
+const paddleStart = [140, 170];
 const gameAreaWidth = 350;
 const gameAreaHeight = 400;
 const paddleWidth = 100;
 const paddleHeight = 20;
-const ballStart = [230, 30];
+const ballStart = [190, 190];
 const ballDiameter = 15;
 const scoreboard = document.querySelector('.scoreboard');
 
