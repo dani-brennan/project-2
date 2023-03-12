@@ -1,5 +1,5 @@
 body {
-    background: url('/assets/images/background-rainbow.jpg')no-repeat bottom center;
+    background: url('../images/background-rainbow.jpg')no-repeat bottom center;
     background-color: #000000;
 }
 
@@ -110,8 +110,8 @@ button {
     font-family: 'Press Start 2P';
     text-align: center;
     border: 2px;
-    border-style: solid;
-    border-color:#cc0066;
+    border-style:outset;
+    border-color:#222222;
     width: auto;
     height: 40px;
     position: relative;
@@ -135,6 +135,6 @@ button {
 }
 
 #instructionsButton {
-    color:aqua;
+    color:rgb(255, 255, 255);
     margin-top: 410px;
 }
