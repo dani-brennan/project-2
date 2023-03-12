@@ -41,27 +41,6 @@ function off() {
 	document.getElementById("overlay").style.display = "none";
 }
 
-//touch controls
-buttontouchleft.addEventListener('click', (e), touchLeft);
-buttontouchright.addEventListener('click', (e), touchRight);
-
-//move paddle left
-function touchLeft(event) {
-	if (currentPosition[0] > 0) {
-		currentPosition[0] -= 10;
-		drawPaddle();
-	}
-
-}
-
-//move paddle right
-function touchRight(event) {
-	if (currentPosition[0] < gameAreaWidth - paddleWidth) {
-		currentPosition[0] += 10;
-		drawPaddle();
-	}
-}
-
 // Listen for the startButton to be pressed
 startButton.addEventListener('click', (e) => {
 	startButton.remove();
@@ -139,8 +118,26 @@ startButton.addEventListener('click', (e) => {
 
 					break;
 			}
+			//touch controls
+
+			
+
+		}
+		//move paddle left
+		function touchLeft(event) {
+			if (currentPosition[0] > 0) {
+				currentPosition[0] -= 10;
+				drawPaddle();
+			}
 		}
 
+		//move paddle right
+		function touchRight(event) {
+			if (currentPosition[0] < gameAreaWidth - paddleWidth) {
+				currentPosition[0] += 10;
+				drawPaddle();
+			}
+		}
 
 		document.addEventListener('keydown', movePaddle);
 
