@@ -4,7 +4,7 @@ const blockHeight = 20;
 const paddleStart = [125, 25];
 const gameAreaWidth = 350;
 const gameAreaHeight = 400;
-const paddleWidth = 100;
+const paddleWidth = 80;
 const paddleHeight = 20;
 const ballStart = [125, 50];
 const ballDiameter = 15;
@@ -41,21 +41,7 @@ function on() {
 	document.getElementById("overlay").style.display = "none";
 }
 //touch controls
-//move paddle left
-function touchLeft(event) {
-	if (currentPosition[0] > 0) {
-		currentPosition[0] -= 15;
-		drawPaddle();
-	}
 
-}
-//move paddle right
-function touchRight(event) {
-	if (currentPosition[0] < gameAreaWidth - paddleWidth) {
-	currentPosition[0] += 15;
-	drawPaddle();
-	}
-}
 
 // Listen for the spacebar to be pressed
 startButton.addEventListener('click', (e) => {
@@ -121,8 +107,23 @@ startButton.addEventListener('click', (e) => {
 				paddle.style.bottom = currentPosition[1] + 'px';
 			}
 			//move paddle touchscreen
-			document.querySelector('.paddle').addEventListener('touchmove', movePaddle)
+			document.querySelector('.paddle').addEventListener('touchstart', movePaddle)
 			
+			//move paddle left
+			function touchLeft(event) {
+				if (currentPosition[0] > 0) {
+				currentPosition[0] -= 15;
+				drawPaddle();
+				}
+
+			}
+			//move paddle right
+			function touchRight(event) {
+				if (currentPosition[0] < gameAreaWidth - paddleWidth) {
+				currentPosition[0] += 15;
+				drawPaddle();
+				}
+			}
 
 			//move paddle
 			function movePaddle(e) {
