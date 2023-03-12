@@ -48,10 +48,10 @@ function drawPaddle() {
 }
 
 //create paddle
-	const paddle = document.createElement('div');
-	paddle.classList.add('paddle');
-	gamearea.appendChild(paddle);
-	drawPaddle();
+const paddle = document.createElement('div');
+paddle.classList.add('paddle');
+gamearea.appendChild(paddle);
+drawPaddle();
 
 //move paddle left
 function touchLeft(event) {

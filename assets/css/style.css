@@ -53,7 +53,7 @@
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    border-style: solid;
+    border-style:groove;
     border-color:#cc0066;
     display: block;
 }
@@ -101,21 +101,38 @@ button {
     background-color: rgb(0, 0, 0);
     color: rgb(0, 119, 255);
     font-family: 'Press Start 2P';
+    text-align: center;
     border: 2px;
     border-style: solid;
     border-color:#cc0066;
-    width: 100px;
+    width: auto;
     height: 40px;
+    position: relative;
+    margin-top: 5px;
 }
 #buttontouchleft {
     height: 40px;
     width: 40px;
     font-size: 5px;
-    margin-top: 430px;
+    margin-right: 35px;
+    color: rgb(0, 236, 0);
+   
 }
 #buttontouchright {
     height: 40px;
     width: 40px;
     font-size: 5px;
-    margin-top: 430px;
+    margin-left: 35px;
+    color: rgb(0, 236, 0);
+    
+
+    
+}
+.startButton {
+    color: rgb(255, 0, 0);
+    margin-top: 100px;
+}
+#instructionsButton {
+    color:aqua;
+    margin-top: 410px;
 }
