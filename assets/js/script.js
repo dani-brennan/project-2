@@ -46,19 +46,19 @@ function drawPaddle() {
 	paddle.style.left = currentPosition[0] + 'px';
 	paddle.style.bottom = currentPosition[1] + 'px';
 }
+
 //create paddle
 	const paddle = document.createElement('div');
 	paddle.classList.add('paddle');
 	gamearea.appendChild(paddle);
 	drawPaddle();
+
 //move paddle left
 function touchLeft(event) {
-	alert("left")
 	if (currentPosition[0] > 0) {
 		currentPosition[0] -= 10;
 		drawPaddle();
 	}
-
 }
 
 //move paddle right
