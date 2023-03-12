@@ -78,8 +78,10 @@ ul {
 
 .block {
     background-color:#000000;
+    background: url('../images/gradient-block.jpg')no-repeat center;
+    background-size: cover;
     width: 35px;
-    height: 20px;
+    height: 15px;
     border: 2px;
     border-style: inset;
     border-radius: 10px;
