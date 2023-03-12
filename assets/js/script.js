@@ -48,8 +48,7 @@ function touchLeft() {
 		currentPosition[0] -= 10;
 		drawPaddle();
 	}
-	
-	
+
 }
 //move paddle right
 function touchRight() {
@@ -57,9 +56,11 @@ function touchRight() {
 		currentPosition[0] += 10;
 		drawPaddle();
 	}
-	alert("You touched Right")
 }
-
+function touchStart() {
+	startGame=true;
+	drawPaddle();
+}
 // Listen for the spacebar to be pressed
 startButton.addEventListener('keydown', (e) => {
 	if (e.code === "Space") {
