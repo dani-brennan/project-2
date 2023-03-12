@@ -90,14 +90,34 @@ startButton.addEventListener('click', (e) => {
 		}
 
 		//all blocks 
-		const blocks = [ //first row
-			new block(5, 370),
-			new block(55, 370),
-			new block(105, 370),
-			new block(155, 370),
-			new block(205, 370),
-			new block(255, 370),
-			new block(305, 370),
+		const blocks = [
+			//first row
+			new block(12, 370),
+			new block(42, 370),
+			new block(72, 370),
+			new block(102, 370),
+			new block(132, 370),
+			new block(162, 370),
+			new block(192, 370),
+			new block(222, 370),
+			new block(252, 370),
+			new block(282, 370),
+			new block(312, 370),
+
+			//second row
+			new block(12, 340),
+			new block(42, 340),
+			new block(72, 340),
+			new block(102, 340),
+			new block(132, 340),
+			new block(162, 340),
+			new block(192, 340),
+			new block(222, 340),
+			new block(252, 340),
+			new block(282, 340),
+			new block(312, 340),
+			
+			
 		];
 
 		console.log(blocks[0]);
