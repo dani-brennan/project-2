@@ -40,10 +40,23 @@ function on() {
   function off() {
 	document.getElementById("overlay").style.display = "none";
 }
+
+//touch controls
+//move paddle left
 function touchLeft() {
-	alert("You touched Left")
+	if (currentPosition[0] > 0) {
+		currentPosition[0] -= 10;
+		drawPaddle();
+	}
+	
+	
 }
+//move paddle right
 function touchRight() {
+	if (currentPosition[0] < gameAreaWidth - paddleWidth) {
+		currentPosition[0] += 10;
+		drawPaddle();
+	}
 	alert("You touched Right")
 }
 
