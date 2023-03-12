@@ -6,7 +6,7 @@ const gameAreaWidth = 350;
 const gameAreaHeight = 400;
 const paddleWidth = 80;
 const paddleHeight = 20;
-const ballStart = [155, 50];
+const ballStart = [150, 50];
 const ballDiameter = 15;
 const scoreboard = document.querySelector('.scoreboard');
 

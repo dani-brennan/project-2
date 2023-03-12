@@ -44,11 +44,11 @@ ul {
     font-size: 105%;
     width: 350px;
     height: 20px;
-    padding-top: 8px;
+    padding-top: 12px;
     padding-bottom: 8px;
     display: block;
     border-style: solid;
-    border-color:#cc0066;
+    border-color:#ff0077;
 }
 
 .scoreboard {
@@ -62,7 +62,7 @@ ul {
     padding-top: 5px;
     padding-bottom: 5px;
     border-style:groove;
-    border-color:#cc0066;
+    border-color:#a100c2;
     display: block;
 }
 
@@ -73,7 +73,7 @@ ul {
     display: block;
     position: absolute;
     border-style: solid;
-    border-color:#cc0066;
+    border-color:#0004ff;
 }
 
 .block {
