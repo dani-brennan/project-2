@@ -40,14 +40,29 @@ function on() {
   function off() {
 	document.getElementById("overlay").style.display = "none";
 }
+//touch controls
+//move paddle left
+function touchLeft() {
+	if (currentPosition[0] > 0) {
+		currentPosition[0] -= 10;
+		drawPaddle();
+	}
 
+}
+//move paddle right
+function touchRight() {
+	if (currentPosition[0] < gameAreaWidth - paddleWidth) {
+	currentPosition[0] += 10;
+	drawPaddle();
+	}
+}
 
 // Listen for the spacebar to be pressed
-startButton.addEventListener('touchstart', (e) => {
+//startButton.addEventListener('click', (e) => {
 	//if (e.code === "Space") {
 
 		// stop the start button from being clicked again
-		startButton.addEventListener('touchstart', () => {
+		startButton.addEventListener('click', () => {
 			startButton.remove();
 		});
 
@@ -126,22 +141,6 @@ startButton.addEventListener('touchstart', (e) => {
 							drawPaddle();
 						}
 						break;
-				}
-			}
-			//touch controls
-			//move paddle left
-			function touchLeft() {
-				if (currentPosition[0] > 0) {
-					currentPosition[0] -= 10;
-					drawPaddle();
-				}
-
-			}
-			//move paddle right
-			function touchRight() {
-				if (currentPosition[0] < gameAreaWidth - paddleWidth) {
-					currentPosition[0] += 10;
-					drawPaddle();
 				}
 			}
 			
@@ -249,4 +248,4 @@ startButton.addEventListener('touchstart', (e) => {
 			}
 		}
 	//}
-});
+//}
