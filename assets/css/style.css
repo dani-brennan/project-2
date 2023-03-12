@@ -112,7 +112,8 @@ button {
     width: auto;
     height: 40px;
     position: relative;
-    margin-top: 5px;
+    margin: 2px 5px 2px 5px;
+    
 }
 #buttontouchleft {
     height: 40px;
