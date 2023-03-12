@@ -41,6 +41,34 @@ function off() {
 	document.getElementById("overlay").style.display = "none";
 }
 
+//touch controls
+function drawPaddle() {
+	paddle.style.left = currentPosition[0] + 'px';
+	paddle.style.bottom = currentPosition[1] + 'px';
+}
+//create paddle
+	const paddle = document.createElement('div');
+	paddle.classList.add('paddle');
+	gamearea.appendChild(paddle);
+	drawPaddle();
+//move paddle left
+function touchLeft(event) {
+	alert("left")
+	if (currentPosition[0] > 0) {
+		currentPosition[0] -= 10;
+		drawPaddle();
+	}
+
+}
+
+//move paddle right
+function touchRight(event) {
+	if (currentPosition[0] < gameAreaWidth - paddleWidth) {
+		currentPosition[0] += 10;
+		drawPaddle();
+	}
+}
+
 // Listen for the startButton to be pressed
 startButton.addEventListener('click', (e) => {
 	startButton.remove();
@@ -88,16 +116,16 @@ startButton.addEventListener('click', (e) => {
 		buildBlocks();
 
 		//create paddle
-		const paddle = document.createElement('div');
-		paddle.classList.add('paddle');
-		gamearea.appendChild(paddle);
-		drawPaddle();
+		//const paddle = document.createElement('div');
+		//paddle.classList.add('paddle');
+		//gamearea.appendChild(paddle);
+		//drawPaddle();
 
 		//draw paddle
-		function drawPaddle() {
-			paddle.style.left = currentPosition[0] + 'px';
-			paddle.style.bottom = currentPosition[1] + 'px';
-		}
+		//function drawPaddle() {
+			//paddle.style.left = currentPosition[0] + 'px';
+			//paddle.style.bottom = currentPosition[1] + 'px';
+		//}
 
 		//move paddle
 		function movePaddle(e) {
@@ -118,26 +146,8 @@ startButton.addEventListener('click', (e) => {
 
 					break;
 			}
-			//touch controls
-
-			
-
-		}
-		//move paddle left
-		function touchLeft(event) {
-			if (currentPosition[0] > 0) {
-				currentPosition[0] -= 10;
-				drawPaddle();
-			}
 		}
 
-		//move paddle right
-		function touchRight(event) {
-			if (currentPosition[0] < gameAreaWidth - paddleWidth) {
-				currentPosition[0] += 10;
-				drawPaddle();
-			}
-		}
 
 		document.addEventListener('keydown', movePaddle);
 
