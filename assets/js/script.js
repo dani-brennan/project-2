@@ -1,5 +1,5 @@
 const gamearea = document.querySelector('.gamearea');
-const blockWidth = 30;
+const blockWidth = 20;
 const blockHeight = 20;
 const paddleStart = [125, 25];
 const gameAreaWidth = 350;
