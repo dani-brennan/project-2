@@ -111,11 +111,12 @@ button {
     text-align: center;
     border: 2px;
     border-style:outset;
-    border-color:#222222;
+    border-color:#0c0c0c;
     width: auto;
     height: 40px;
     position: relative;
     margin: 2px 5px 2px 5px;
+    padding: 8px;
     
 }
 #buttontouchleft {
