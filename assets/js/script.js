@@ -42,7 +42,24 @@ function off() {
 }
 
 //touch controls
+//move paddle touchscreen
+		
+//move paddle left
+function touchLeft(e) {
+	if (currentPosition[0] > 0) {
+		currentPosition[0] -= 15;
+		drawPaddle();
+	}
 
+}
+
+//move paddle right
+function touchRight(e) {
+	if (currentPosition[0] < gameAreaWidth - paddleWidth) {
+		currentPosition[0] += 15;
+		drawPaddle();
+	}
+}
 
 // Listen for the startButton to be pressed
 startButton.addEventListener('click', (e) => {
@@ -100,26 +117,6 @@ startButton.addEventListener('click', (e) => {
 		function drawPaddle() {
 			paddle.style.left = currentPosition[0] + 'px';
 			paddle.style.bottom = currentPosition[1] + 'px';
-		}
-
-		//move paddle touchscreen
-		document.querySelector('.paddle').addEventListener('touchstart', movePaddle) 
-		
-		//move paddle left
-		function touchLeft(e) {
-			if (currentPosition[0] > 0) {
-				currentPosition[0] -= 15;
-				drawPaddle();
-			}
-
-		}
-
-		//move paddle right
-		function touchRight(e) {
-			if (currentPosition[0] < gameAreaWidth - paddleWidth) {
-				currentPosition[0] += 15;
-				drawPaddle();
-			}
 		}
 
 		//move paddle
