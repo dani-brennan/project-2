@@ -41,32 +41,13 @@ function on() {
 	document.getElementById("overlay").style.display = "none";
 }
 
-//touch controls
-//move paddle left
-function touchLeft() {
-	if (currentPosition[0] > 0) {
-		currentPosition[0] -= 10;
-		drawPaddle();
-	}
 
-}
-//move paddle right
-function touchRight() {
-	if (currentPosition[0] < gameAreaWidth - paddleWidth) {
-		currentPosition[0] += 10;
-		drawPaddle();
-	}
-}
-function touchStart() {
-	startGame=true;
-	drawPaddle();
-}
 // Listen for the spacebar to be pressed
-startButton.addEventListener('keydown', (e) => {
-	if (e.code === "Space") {
+startButton.addEventListener('touchstart', (e) => {
+	//if (e.code === "Space") {
 
 		// stop the start button from being clicked again
-		startButton.addEventListener('click', () => {
+		startButton.addEventListener('touchstart', () => {
 			startButton.remove();
 		});
 
@@ -147,6 +128,23 @@ startButton.addEventListener('keydown', (e) => {
 						break;
 				}
 			}
+			//touch controls
+			//move paddle left
+			function touchLeft() {
+				if (currentPosition[0] > 0) {
+					currentPosition[0] -= 10;
+					drawPaddle();
+				}
+
+			}
+			//move paddle right
+			function touchRight() {
+				if (currentPosition[0] < gameAreaWidth - paddleWidth) {
+					currentPosition[0] += 10;
+					drawPaddle();
+				}
+			}
+			
 
 			document.addEventListener('keydown', movePaddle);
 
@@ -250,5 +248,5 @@ startButton.addEventListener('keydown', (e) => {
 				}
 			}
 		}
-	}
+	//}
 });
