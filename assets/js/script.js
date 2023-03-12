@@ -58,8 +58,8 @@ function touchRight(event) {
 }
 
 // Listen for the spacebar to be pressed
-//startButton.addEventListener('click', (e) => {
-	//if (e.code === "Space") {
+startButton.addEventListener('click', (e) => {
+	
 
 		// stop the start button from being clicked again
 		startButton.addEventListener('click', () => {
@@ -247,5 +247,4 @@ function touchRight(event) {
 				}
 			}
 		}
-	//}
-//}
+});
