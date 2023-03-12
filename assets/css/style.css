@@ -2,6 +2,10 @@ body {
     background: url('/assets/images/background-rainbow.jpg')no-repeat bottom center;
     background-color: #000000;
 }
+
+ul {
+    list-style-type: none;
+}
 #overlay {
     background-color: rgba(20, 20, 20, 0.9);
     width: 100%;
