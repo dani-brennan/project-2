@@ -42,6 +42,9 @@ function off() {
 }
 
 //touch controls
+buttontouchleft.addEventListener('click', (e), touchLeft);
+buttontouchright.addEventListener('click', (e), touchRight);
+
 //move paddle left
 function touchLeft(event) {
 	if (currentPosition[0] > 0) {
