@@ -42,21 +42,19 @@ function off() {
 }
 
 //touch controls
-//move paddle touchscreen
-		
 //move paddle left
-function touchLeft(e) {
+function touchLeft(event) {
 	if (currentPosition[0] > 0) {
-		currentPosition[0] -= 15;
+		currentPosition[0] -= 10;
 		drawPaddle();
 	}
 
 }
 
 //move paddle right
-function touchRight(e) {
+function touchRight(event) {
 	if (currentPosition[0] < gameAreaWidth - paddleWidth) {
-		currentPosition[0] += 15;
+		currentPosition[0] += 10;
 		drawPaddle();
 	}
 }
