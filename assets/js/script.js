@@ -44,7 +44,7 @@ function on() {
 //move paddle left
 function touchLeft(event) {
 	if (currentPosition[0] > 0) {
-		currentPosition[0] -= 10;
+		currentPosition[0] -= 15;
 		drawPaddle();
 	}
 
@@ -52,7 +52,7 @@ function touchLeft(event) {
 //move paddle right
 function touchRight(event) {
 	if (currentPosition[0] < gameAreaWidth - paddleWidth) {
-	currentPosition[0] += 10;
+	currentPosition[0] += 15;
 	drawPaddle();
 	}
 }
