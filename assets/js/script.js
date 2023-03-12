@@ -103,9 +103,10 @@ startButton.addEventListener('click', (e) => {
 		}
 
 		//move paddle touchscreen
-		document.querySelector('.paddle').addEventListener('touchstart', movePaddle) //move paddle left
-
-		function touchLeft(event) {
+		document.querySelector('.paddle').addEventListener('touchstart', movePaddle) 
+		
+		//move paddle left
+		function touchLeft(e) {
 			if (currentPosition[0] > 0) {
 				currentPosition[0] -= 15;
 				drawPaddle();
@@ -114,7 +115,7 @@ startButton.addEventListener('click', (e) => {
 		}
 
 		//move paddle right
-		function touchRight(event) {
+		function touchRight(e) {
 			if (currentPosition[0] < gameAreaWidth - paddleWidth) {
 				currentPosition[0] += 15;
 				drawPaddle();
