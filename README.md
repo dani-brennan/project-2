@@ -20,3 +20,8 @@ the game is to use a paddle to bounce a ball and bounce it off the walls to remo
 <h2>Typography</h2>
 The font I used for this project is <a href="https://fonts.google.com/specimen/Press+Start+2P">Press Start 2P</a> sourced from Google Fonts.
 
+<h2>Wireframes - Balsamiq</h2>
+[screenshots]
+
+<h1>Technologies Used</h1>
+<p>HTML, CSS, JavaScript</p>
