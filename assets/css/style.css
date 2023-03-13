@@ -130,18 +130,19 @@ button {
     width: 40px;
     font-size: 12px;
     margin-right: 35px;
-    color: rgb(0, 236, 0);
+    color: #ff009d;
    
 }
 #buttontouchright {
-    height: 40px;
-    width: 40px;
-    font-size: 12px;
+    height: 45px;
+    width: 45px;
+    font-size: 14px;
     margin-left: 35px;
-    color: rgb(0, 236, 0); 
+    color: #ff009d; 
 }
 
 #instructionsButton {
     color:rgb(255, 255, 255);
     margin-top: 410px;
+    height: 45px;
 }
