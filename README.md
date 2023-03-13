@@ -117,3 +117,70 @@ The game has been tested on multiple browsers (Chrome, Safari, FireFox).
   </tr>
 </tbody>
 </table>
+<h3>Elements Testing</h3>
+<table>
+<thead>
+  <tr>
+    <th>Element</th>
+    <th>Outcome</th>
+    <th>Pass/Fail</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Game Area</td>
+    <td>Functions as expected</td>
+    <td>TBC</td>
+  </tr>
+  <tr>
+    <td>Paddle</td>
+    <td>Paddle moves left and right and stays inside game area as expected. Paddle collides with ball as expected.</td>
+    <td>TBC</td>
+  </tr>
+  <tr>
+    <td>Start Game Button</td>
+    <td>Functions as expected.</td>
+    <td>TBC</td>
+  </tr>
+   <tr>
+    <td>Reset Game Button</td>
+    <td>Functions as expected.</td>
+    <td>TBC</td>
+  </tr>
+   <tr>
+    <td>How to Play Button</td>
+    <td>Functions as expected.</td>
+    <td>TBC</td>
+  </tr>
+   <tr>
+    <td>Game controls (Desktop)</td>
+    <td>Left and right keyboard keys move paddle left and right as expected. Left and right buttons move paddle left and right as expected.</td>
+    <td>TBC</td>
+  </tr>
+  <tr>
+    <td>Game Controls (Touch screen)</td>
+    <td>Left and right buttons move paddle left and right as expected.</td>
+    <td>TBC</td>
+  </tr>
+  <tr>
+    <td>Ball</td>
+    <td>Moves as expected and collision with walls and paddle is as expected.</td>
+    <td>TBC</td>
+  </tr>
+  <tr>
+    <td>Game Loss</td>
+    <td>Game over works as expected: when ball hit the bottom of the game area.</td>
+    <td>TBC</td>
+  </tr>
+  <tr>
+    <td>Game Win</td>
+    <td>Game win works as expected: when all blocks are destroyed.</td>
+    <td>TBC</td>
+  </tr>
+  <tr>
+    <td>Score</td>
+    <td>Score works as expected: increases in amount as blocks are destroyed.</td>
+    <td>TBC</td>
+  </tr>
+</tbody>
+</table>
