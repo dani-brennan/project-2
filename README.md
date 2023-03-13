@@ -184,3 +184,12 @@ The game has been tested on multiple browsers (Chrome, Safari, FireFox).
   </tr>
 </tbody>
 </table>
+
+<h2>Bugs</h2>
+<p>I encountered a bug where the ball would go through the paddle occasionally. I discovered that I had accidentally put blockWidth instead of paddleWidth which meant that physically the block lookedcorrect but it was actually the size of the block which has a smaller width, which resulted in the ball
+passing through.</p>
+<p>When centering the div containing the game it resulted in the game area being offset i.e. The game
+looked like it was in the right place but the game collision barriers were still floating to the left.
+Changing the game area position to absolute fixed this issue.</p> 
+<p>When implementing mobile touch controls I had a similar problem moving the paddle. The paddle would not move physically but there was still an invisible paddle allowing me to bounce the ball. I solved this bug by moving mobile touch control functions, drawPaddle and movePaddle to outside of
+the main loop.</p>
