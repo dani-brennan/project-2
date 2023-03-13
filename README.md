@@ -17,3 +17,6 @@ the game is to use a paddle to bounce a ball and bounce it off the walls to remo
 <li>As a player, I want game controls to be easy to use and access</li>
 <li>As a player, I want a game that is challenging</li>
 </ul>
+<h2>Typography</h2>
+The font I used for this project is <a href="https://fonts.google.com/specimen/Press+Start+2P">Press Start 2P</a> sourced from Google Fonts.
+
