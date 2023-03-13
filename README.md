@@ -7,4 +7,13 @@ the game is to use a paddle to bounce a ball and bounce it off the walls to remo
     <li>The website is fun, interactive and easy to navigate.</li>
     <li>Game instructions are clear, easy to follow and accessible to the player at all times.</li>
     <li>Game is playable on both computer and touch devices</li>
+</ul>
+<h2>User Stories</h2>
 <ul>
+<li>As a player, I want the game to be easy to understand</li>
+<li>As a player, I want the game to be fun to play</li>
+<li>As a player, I want to have access to instructions that teach me how to play the game</li>
+<li>As a player, I want to play on computer or on my phone</li>
+<li>As a player, I want game controls to be easy to use and access</li>
+<li>As a player, I want a game that is challenging</li>
+</ul>
