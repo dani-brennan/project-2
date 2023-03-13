@@ -90,3 +90,30 @@ The game has been tested on multiple browsers (Chrome, Safari, FireFox).
   </tr>
 </tbody>
 </table>
+<h3>Device Compatibility</h3>
+<table>
+<thead>
+  <tr>
+    <th>Browser</th>
+    <th>Outcome</th>
+    <th>Pass/Fail</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Desktop</td>
+    <td>No changes to appearance or functionality</td>
+    <td>TBC</td>
+  </tr>
+  <tr>
+    <td>Tablet</td>
+    <td>No changes to appearance or functionality</td>
+    <td>TBC</td>
+  </tr>
+  <tr>
+    <td>Mobile</td>
+    <td>No changes to appearance or functionality</td>
+    <td>TBC</td>
+  </tr>
+</tbody>
+</table>
