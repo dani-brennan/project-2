@@ -193,3 +193,22 @@ looked like it was in the right place but the game collision barriers were still
 Changing the game area position to absolute fixed this issue.</p> 
 <p>When implementing mobile touch controls I had a similar problem moving the paddle. The paddle would not move physically but there was still an invisible paddle allowing me to bounce the ball. I solved this bug by moving mobile touch control functions, drawPaddle and movePaddle to outside of
 the main loop.</p>
+<h1>Future Implementations</h1>
+<ul>
+<li>More levels with increasing difficulty</li>
+<li>Different types of blocks</li>
+<li>Powerups</li>
+<li>Music/Sound effects</li>
+</ul>
+<h1>Live Link</h1>
+A live link to this project can be found <a href="https://dani-brennan.github.io/project-2/">here.</a>
+<h1>Credits</h1>
+<h2>Code</h2>
+To learn how to create the basic block breaker game elements, I learned from <a href="https://www.youtube.com/watch?v=3KWEud12Pxo">this tutorial.</a>
+<h2>Images</h2>
+<a href="https://pixabay.com/illustrations/spectrum-psychedelic-green-gradient-553216/">Background image</a>
+<a href="https://pixabay.com/illustrations/background-pink-blue-gradient-1591229/">Block image</a>
+<h2>Wireframes</h2>
+The wireframes were created using <a href="https://balsamiq.com/">Balsamiq.</a>
+<h2>Icons</h2>
+Made by <a href= "https://fontawesome.com/">Fontawesome</a>
