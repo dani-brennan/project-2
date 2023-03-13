@@ -62,3 +62,31 @@ The game has been tested on multiple browsers (Chrome, Safari, FireFox).
 <p>JavaScript was validated using <a href="https://jshint.com/">JS Hint</a></p>
 <p>Lighthouse testing</p>
 <p>Am I Responsive</p>
+
+<h2>Manual Testing</h2>
+<table>
+<thead>
+  <tr>
+    <th>Browser</th>
+    <th>Outcome</th>
+    <th>Pass/Fail</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Chrome</td>
+    <td>No changes to appearance or functionality</td>
+    <td>TBC</td>
+  </tr>
+  <tr>
+    <td>Safari</td>
+    <td>No changes to appearance or functionality</td>
+    <td>TBC</td>
+  </tr>
+  <tr>
+    <td>Firefox</td>
+    <td>No changes to appearance or functionality</td>
+    <td>TBC</td>
+  </tr>
+</tbody>
+</table>
