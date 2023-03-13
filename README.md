@@ -27,6 +27,38 @@ The font I used for this project is <a href="https://fonts.google.com/specimen/P
 <p>HTML, CSS, JavaScript</p>
 
 <h2>Features</h2>
-<h3>The top bar will have the game title, the score total as well as the notification of when the game is over or if
-the player has won.</h3>
+<h3>Top Bar</h3>
+<p>The top bar will have the game title, the score total as well as the notification of when the game is over or if
+the player has won.</p>
+[final screenshot]
+<h4>Game Title</h4>
+This area contains the title of the game.
+[final screenshot]
+<h4>Score Total</h4>
+<p>The user will earn points for every block broken. The updated score will show here.</p>
+[final screenshot]
+
+<h3>Game Area</h3>
+<p>This area will have the game where the user can interact with the paddle and bounce the ball towards the
+blocks and off the walls. The top of the game area will have the blocks, the bottom of the game area will have
+the paddle (which can only move along the x axis). The ball will spawn above the paddle but can move
+throughout the game area. If the ball collides with a block it will disappear. Once all the blocks have been
+broken the level is completed. If the ball reaches the bottom of the game area, it will result in game over.</p>
+[final screenshot]
+<h4>Paddle</h4>
 [screenshot]
+<h4>Ball</h4>
+[screenshot]
+<h4>Blocks</h4>
+[screenshot]
+
+<h1>Testing</h1>
+The game has been tested on multiple browsers (Chrome, Safari, FireFox).
+
+<h2>Validating</h2>
+<p>Html was validated using <a href="https://validator.w3.org/">W3 Validator</a></p>
+
+<p>CSS was validated using <a href="https://jigsaw.w3.org/css-validator/">W3 Jigsaw</a></p>
+<p>JavaScript was validated using <a href="https://jshint.com/">JS Hint</a></p>
+<p>Lighthouse testing</p>
+<p>Am I Responsive</p>
