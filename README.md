@@ -25,3 +25,8 @@ The font I used for this project is <a href="https://fonts.google.com/specimen/P
 
 <h1>Technologies Used</h1>
 <p>HTML, CSS, JavaScript</p>
+
+<h2>Features</h2>
+<h3>The top bar will have the game title, the score total as well as the notification of when the game is over or if
+the player has won.</h3>
+[screenshot]
