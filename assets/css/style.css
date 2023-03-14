@@ -3,6 +3,7 @@
 body {
     background: url('../images/background-rainbow.jpg')no-repeat center;
     background-color: #000000;
+    background-size: cover;
 }
 
 h2 {
