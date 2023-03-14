@@ -33,11 +33,11 @@ const startButton = document.createElement('button');
 startButton.innerText = "Start Game";
 document.body.appendChild(startButton);
 
-function on() {
+function instructionsOn() {
 	document.getElementById("overlay").style.display = "block";
 }
 
-function off() {
+function instructionsOff() {
 	document.getElementById("overlay").style.display = "none";
 }
 

@@ -207,7 +207,10 @@ the main loop.</p>
 A live link to this project can be found <a href="https://dani-brennan.github.io/project-2/" rel="noopener" target="_blank">here.</a>
 <h1>Credits</h1>
 <h2>Code</h2>
-To learn how to create the basic block breaker game elements, I learned from <a href="https://www.youtube.com/watch?v=3KWEud12Pxo" rel="noopener" target="_blank">this tutorial.</a>
+<p>To learn how to create the basic block breaker game elements, I learned from <a href="https://www.youtube.com/watch?v=3KWEud12Pxo" rel="noopener" target="_blank">this tutorial.</a></p>
+<h3>Copyright</h3>
+<p>Copyright (c) 2020 Ania Kubow
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 <h2>Images</h2>
 <a href="https://pixabay.com/illustrations/spectrum-psychedelic-green-gradient-553216/" rel="noopener" target="_blank">Background image</a>
 <a href="https://pixabay.com/illustrations/background-pink-blue-gradient-1591229/" rel="noopener" target="_blank">Block image</a>
