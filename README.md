@@ -1,6 +1,5 @@
 <h1>Block Game</h1>
-Block Game is a browser based game inspired by one of my favourite childhood games, Breakout. The aim of
-the game is to use a paddle to bounce a ball and bounce it off the walls to remove all of the blocks. Breaking all the blocks will result in the level being completed.
+Block Game is a browser game inspired by one of my favourite childhood games, Breakout. The aim of the game is to use a paddle to bounce a ball and bounce it off the walls to remove all of the blocks. Breaking all the blocks will result in the level being completed.
 <h2>Live Link</h2>
 A live link to this project can be found <a href="https://dani-brennan.github.io/project-2/">here.</a>
 <h2>User Experience</h2>
@@ -17,7 +16,6 @@ A live link to this project can be found <a href="https://dani-brennan.github.io
 <li>As a player, I want to have access to instructions that teach me how to play the game</li>
 <li>As a player, I want to play on computer or on my phone</li>
 <li>As a player, I want game controls to be easy to use and access</li>
-<li>As a player, I want a game that is challenging</li>
 </ul>
 <h3>Typography</h3>
 The font I used for this project is <a href="https://fonts.google.com/specimen/Press+Start+2P" target="_blank">Press Start 2P</a> sourced from Google Fonts.
@@ -44,7 +42,7 @@ This area contains the title of the game.
 [final screenshot]
 
 <h4>Game Area</h4>
-<p>This area will have the game where the user can interact with the paddle and bounce the ball towards the
+<p>This area will have the game. The player can interact with the paddle and bounce the ball towards the
 blocks and off the walls. The top of the game area will have the blocks, the bottom of the game area will have
 the paddle (which can only move along the x axis). The ball will spawn above the paddle but can move
 throughout the game area. If the ball collides with a block it will disappear. Once all the blocks have been
@@ -139,7 +137,7 @@ The game has been tested on multiple browsers (Chrome, Safari, FireFox).
   </tr>
   <tr>
     <td>Paddle</td>
-    <td>Paddle moves left and right and stays inside game area as expected. Paddle collides with ball as expected.</td>
+    <td>Paddle moves left and right and stays inside the game area as expected. Paddle collides with the ball as expected.</td>
     <td>TBC</td>
   </tr>
   <tr>
@@ -159,22 +157,22 @@ The game has been tested on multiple browsers (Chrome, Safari, FireFox).
   </tr>
    <tr>
     <td>Game controls (Desktop)</td>
-    <td>Left and right keyboard keys move paddle left and right as expected. Left and right buttons move paddle left and right as expected.</td>
+    <td>Left and right keyboard keys move the paddle left and right as expected. Left and right buttons move the paddle left and right as expected.</td>
     <td>TBC</td>
   </tr>
   <tr>
     <td>Game Controls (Touch screen)</td>
-    <td>Left and right buttons move paddle left and right as expected.</td>
+    <td>Left and right buttons move the paddle left and right as expected.</td>
     <td>TBC</td>
   </tr>
   <tr>
     <td>Ball</td>
-    <td>Moves as expected and collision with walls and paddle is as expected.</td>
+    <td>Moves as expected. Collision with walls and paddle is as expected.</td>
     <td>TBC</td>
   </tr>
   <tr>
     <td>Game Loss</td>
-    <td>Game over works as expected: when ball hit the bottom of the game area.</td>
+    <td>Game over works as expected: when the ball hits the bottom of the game area.</td>
     <td>TBC</td>
   </tr>
   <tr>
@@ -191,13 +189,14 @@ The game has been tested on multiple browsers (Chrome, Safari, FireFox).
 </table>
 
 <h3>Bugs</h3>
-<p>I encountered a bug where the ball would go through the paddle occasionally. I discovered that I had accidentally put blockWidth instead of paddleWidth which meant that physically the block lookedcorrect but it was actually the size of the block which has a smaller width, which resulted in the ball
-passing through.</p>
-<p>When centering the div containing the game it resulted in the game area being offset i.e. The game
-looked like it was in the right place but the game collision barriers were still floating to the left.
-Changing the game area position to absolute fixed this issue.</p> 
-<p>When implementing mobile touch controls I had a similar problem moving the paddle. The paddle would not move physically but there was still an invisible paddle allowing me to bounce the ball. I solved this bug by moving mobile touch control functions, drawPaddle and movePaddle to outside of
-the main loop.</p>
+<ul>
+<li>I encountered a bug where the ball would go through the paddle occasionally. I discovered that I had accidentally put blockWidth instead of paddleWidth, which meant that physically the block looked correct, but it was the size of the block, which has a smaller width, which resulted in the ball passing through.</li>
+<li>When centering the div containing the game, it resulted in the game area being offset i.e., The game
+looked like it was in the right place, but the game collision barriers were still floating to the left.
+Changing the game area position to absolute fixed this issue.</li> 
+<li>When implementing mobile touch controls I had a similar problem moving the paddle. The paddle would not move physically, but an invisible paddle still allowed me to bounce the ball. I solved this bug by moving mobile touch control functions, drawPaddle and movePaddle to outside of
+the main loop.</li>
+</ul>
 <h2>Future Implementations</h2>
 <ul>
 <li>More levels with increasing difficulty</li>
