@@ -1,16 +1,16 @@
 <h1>Block Game</h1>
 Block Game is a browser based game inspired by one of my favourite childhood games, Breakout. The aim of
 the game is to use a paddle to bounce a ball and bounce it off the walls to remove all of the blocks. Breaking all the blocks will result in the level being completed.
-<h1>Live Link</h1>
+<h2>Live Link</h2>
 A live link to this project can be found <a href="https://dani-brennan.github.io/project-2/">here.</a>
-<h1>User Experience</h1>
-<h2>Project Goals</h2>
+<h2>User Experience</h2>
+<h3>Project Goals</h3>
 <ul>
     <li>The website is fun, interactive and easy to navigate.</li>
     <li>Game instructions are clear, easy to follow and accessible to the player at all times.</li>
     <li>Game is playable on both computer and touch devices</li>
 </ul>
-<h2>User Stories</h2>
+<h3>User Stories</h3>
 <ul>
 <li>As a player, I want the game to be easy to understand</li>
 <li>As a player, I want the game to be fun to play</li>
@@ -19,48 +19,48 @@ A live link to this project can be found <a href="https://dani-brennan.github.io
 <li>As a player, I want game controls to be easy to use and access</li>
 <li>As a player, I want a game that is challenging</li>
 </ul>
-<h2>Typography</h2>
+<h3>Typography</h3>
 The font I used for this project is <a href="https://fonts.google.com/specimen/Press+Start+2P" target="_blank">Press Start 2P</a> sourced from Google Fonts.
 
-<h2>Wireframes - Balsamiq</h2>
+<h3>Wireframes - Balsamiq</h3>
 <p><img src="assets/images/wireframe-computer.png"></p>
 <p><img src="assets/images/wireframe-computer-howtoplay.png"></p>
 <p><img src="assets/images/wireframe-mobile.png"></p>
 <p><img src="assets/images/wireframe-mobile-howtoplay.png"></p>
 
-<h1>Technologies Used</h1>
+<h2>Technologies Used</h2>
 <p>HTML, CSS, JavaScript</p>
 
-<h2>Features</h2>
-<h3>Top Bar</h3>
+<h3>Features</h3>
+<h4>Top Bar</h4>
 <p>The top bar will have the game title, the score total as well as the notification of when the game is over or if
 the player has won.</p>
 [final screenshot]
-<h4>Game Title</h4>
+<h5>Game Title</h5>
 This area contains the title of the game.
 [final screenshot]
-<h4>Score Total</h4>
+<h5>Score Total</h5>
 <p>The user will earn points for every block broken. The updated score will show here.</p>
 [final screenshot]
 
-<h3>Game Area</h3>
+<h4>Game Area</h4>
 <p>This area will have the game where the user can interact with the paddle and bounce the ball towards the
 blocks and off the walls. The top of the game area will have the blocks, the bottom of the game area will have
 the paddle (which can only move along the x axis). The ball will spawn above the paddle but can move
 throughout the game area. If the ball collides with a block it will disappear. Once all the blocks have been
 broken the level is completed. If the ball reaches the bottom of the game area, it will result in game over.</p>
 [final screenshot]
-<h4>Paddle</h4>
+<h5>Paddle</h5>
 [screenshot]
-<h4>Ball</h4>
+<h5>Ball</h5>
 [screenshot]
-<h4>Blocks</h4>
+<h5>Blocks</h5>
 [screenshot]
 
-<h1>Testing</h1>
+<h2>Testing</h2>
 The game has been tested on multiple browsers (Chrome, Safari, FireFox).
 
-<h2>Validating</h2>
+<h3>Validating</h3>
 <p>Html was validated using <a href="https://validator.w3.org/" rel="noopener" target="_blank">W3 Validator</a></p>
 
 <p>CSS was validated using <a href="https://jigsaw.w3.org/css-validator/" rel="noopener" target="_blank">W3 Jigsaw</a></p>
@@ -68,7 +68,7 @@ The game has been tested on multiple browsers (Chrome, Safari, FireFox).
 <p>Lighthouse testing</p>
 <p>Am I Responsive</p>
 
-<h2>Manual Testing</h2>
+<h3>Manual Testing</h3>
 <table>
 <thead>
   <tr>
@@ -122,7 +122,7 @@ The game has been tested on multiple browsers (Chrome, Safari, FireFox).
   </tr>
 </tbody>
 </table>
-<h3>Elements Testing</h3>
+<h4>Elements Testing</h4>
 <table>
 <thead>
   <tr>
@@ -190,7 +190,7 @@ The game has been tested on multiple browsers (Chrome, Safari, FireFox).
 </tbody>
 </table>
 
-<h2>Bugs</h2>
+<h3>Bugs</h3>
 <p>I encountered a bug where the ball would go through the paddle occasionally. I discovered that I had accidentally put blockWidth instead of paddleWidth which meant that physically the block lookedcorrect but it was actually the size of the block which has a smaller width, which resulted in the ball
 passing through.</p>
 <p>When centering the div containing the game it resulted in the game area being offset i.e. The game
@@ -198,7 +198,7 @@ looked like it was in the right place but the game collision barriers were still
 Changing the game area position to absolute fixed this issue.</p> 
 <p>When implementing mobile touch controls I had a similar problem moving the paddle. The paddle would not move physically but there was still an invisible paddle allowing me to bounce the ball. I solved this bug by moving mobile touch control functions, drawPaddle and movePaddle to outside of
 the main loop.</p>
-<h1>Future Implementations</h1>
+<h2>Future Implementations</h2>
 <ul>
 <li>More levels with increasing difficulty</li>
 <li>Different types of blocks</li>
@@ -206,16 +206,16 @@ the main loop.</p>
 <li>Music/Sound effects</li>
 </ul>
 
-<h1>Credits</h1>
-<h2>Code</h2>
+<h2>Credits</h2>
+<h3>Code</h3>
 <p>To learn how to create the basic block breaker game elements, I learned from <a href="https://www.youtube.com/watch?v=3KWEud12Pxo" rel="noopener" target="_blank">this tutorial.</a></p>
-<h3>Copyright</h3>
+<h4>Copyright</h4>
 <p>Copyright (c) 2020 Ania Kubow
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
-<h2>Images</h2>
+<h3>Images</h3>
 <a href="https://pixabay.com/illustrations/spectrum-psychedelic-green-gradient-553216/" rel="noopener" target="_blank">Background image</a>
 <a href="https://pixabay.com/illustrations/background-pink-blue-gradient-1591229/" rel="noopener" target="_blank">Block image</a>
-<h2>Wireframes</h2>
+<h3>Wireframes</h3>
 The wireframes were created using <a href="https://balsamiq.com/" rel="noopener" target="_blank">Balsamiq.</a>
-<h2>Icons</h2>
+<h3>Icons</h3>
 Made by <a href= "https://fontawesome.com/" rel="noopener" target="_blank">Fontawesome</a>
