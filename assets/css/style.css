@@ -38,7 +38,7 @@ h3 {
     left: 50%;
     text-align: center;
     transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
+    
 }
 
 .title {
