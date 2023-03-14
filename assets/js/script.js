@@ -20,15 +20,15 @@ let timerId;
 
 let score = 0;
 
-// Create the start game variable.
+// Create the start game variable
 let startGame = false;
 
-// Make a reset Button
+// the reset button refreshes the page
 const resetButton = document.createElement('button');
 resetButton.innerText = "Reset Game";
 document.body.appendChild(resetButton);
 
-// Make a start Button
+// the start button starts the game
 const startButton = document.createElement('button');
 startButton.innerText = "Start Game";
 document.body.appendChild(startButton);
@@ -69,7 +69,7 @@ function touchRight(event) {
 	}
 }
 
-// Listen for the startButton to be pressed
+// Listen for the start button to be pressed
 startButton.addEventListener('click', (e) => {
 	startButton.remove();
 
@@ -79,7 +79,7 @@ startButton.addEventListener('click', (e) => {
 	// If the start game variable is true and the ball is not at the bottom of the level, start the game
 	if (startGame == true && !ballPosition[1] <= 0) {
 
-		//create block
+		//create block (Copyright (c) 2020 Ania Kubow)
 		class block {
 			constructor(xAxis, yAxis) {
 				this.topLeft = [xAxis, yAxis + blockHeight];
@@ -89,7 +89,7 @@ startButton.addEventListener('click', (e) => {
 			}
 		}
 
-		//all blocks 
+		//creates the block layout
 		const blocks = [
 			//first row
 			new block(42, 340),
@@ -117,7 +117,7 @@ startButton.addEventListener('click', (e) => {
 
 		console.log(blocks[0]);
 
-		//build blocks
+		//build blocks (Copyright (c) 2020 Ania Kubow)
 		function buildBlocks() {
 			for (let i = 0; i < blocks.length; i++) {
 				const block = document.createElement('div');
@@ -130,19 +130,7 @@ startButton.addEventListener('click', (e) => {
 
 		buildBlocks();
 
-		//create paddle
-		//const paddle = document.createElement('div');
-		//paddle.classList.add('paddle');
-		//gamearea.appendChild(paddle);
-		//drawPaddle();
-
-		//draw paddle
-		//function drawPaddle() {
-			//paddle.style.left = currentPosition[0] + 'px';
-			//paddle.style.bottom = currentPosition[1] + 'px';
-		//}
-
-		//move paddle
+		//move paddle (Copyright (c) 2020 Ania Kubow)
 		function movePaddle(e) {
 			switch (e.key) {
 				case 'ArrowLeft':
@@ -166,29 +154,28 @@ startButton.addEventListener('click', (e) => {
 
 		document.addEventListener('keydown', movePaddle);
 
-		//draw ball
+		//draw ball (Copyright (c) 2020 Ania Kubow)
 		function drawBall() {
 			ball.style.left = ballPosition[0] + 'px';
 			ball.style.bottom = ballPosition[1] + 'px';
 		}
 
-		//ball
+		//ball (Copyright (c) 2020 Ania Kubow)
 		const ball = document.createElement('div');
 		ball.classList.add('ball');
-
-		/*drawBall()*/
 		gamearea.appendChild(ball);
 
-		//move ball
+		//move ball (Copyright (c) 2020 Ania Kubow)
 		function moveBall() {
 			ballPosition[0] += xDirection;
 			ballPosition[1] += yDirection;
 			drawBall();
 			collision();
 		}
-
+		//controls the speed of the ball (Copyright (c) 2020 Ania Kubow)
 		timerId = setInterval(moveBall, 20);
 
+		//on collision, change the balls direction (Copyright (c) 2020 Ania Kubow)
 		function changeDirection() {
 			if (xDirection === 2 && yDirection === 2) {
 				yDirection = -2;
@@ -211,7 +198,7 @@ startButton.addEventListener('click', (e) => {
 			}
 		}
 
-		//collision detection
+		//collision detection (Copyright (c) 2020 Ania Kubow)
 		function collision() {
 
 			//if the ball hits a block
@@ -235,17 +222,17 @@ startButton.addEventListener('click', (e) => {
 			}
 
 
-			//if the ball hits the wall
+			//if the ball hits the wall (Copyright (c) 2020 Ania Kubow)
 			if (ballPosition[0] >= (gameAreaWidth - ballDiameter) || ballPosition[0] <= 0 || ballPosition[1] >= (gameAreaHeight - ballDiameter)) {
 				changeDirection();
 			}
 
-			//if the ball hits the paddle
+			//if the ball hits the paddle (Copyright (c) 2020 Ania Kubow)
 			if ((ballPosition[0] > currentPosition[0] && ballPosition[0] < currentPosition[0] + paddleWidth) && (ballPosition[1] > currentPosition[1] && ballPosition[1] < currentPosition[1] + paddleHeight)) {
 				changeDirection();
 			}
 
-			//game over
+			//game over (Copyright (c) 2020 Ania Kubow)
 			if (ballPosition[1] <= 0) {
 				clearInterval(timerId);
 				scoreboard.innerHTML = 'Game Over...';
