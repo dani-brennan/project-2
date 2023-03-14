@@ -1,6 +1,8 @@
 <h1>Block Game</h1>
 Block Game is a browser based game inspired by one of my favourite childhood games, Breakout. The aim of
 the game is to use a paddle to bounce a ball and bounce it off the walls to remove all of the blocks. Breaking all the blocks will result in the level being completed.
+<h1>Live Link</h1>
+A live link to this project can be found <a href="https://dani-brennan.github.io/project-2/">here.</a>
 <h1>User Experience</h1>
 <h2>Project Goals</h2>
 <ul>
@@ -203,8 +205,7 @@ the main loop.</p>
 <li>Powerups</li>
 <li>Music/Sound effects</li>
 </ul>
-<h1>Live Link</h1>
-A live link to this project can be found <a href="https://dani-brennan.github.io/project-2/" rel="noopener" target="_blank">here.</a>
+
 <h1>Credits</h1>
 <h2>Code</h2>
 <p>To learn how to create the basic block breaker game elements, I learned from <a href="https://www.youtube.com/watch?v=3KWEud12Pxo" rel="noopener" target="_blank">this tutorial.</a></p>
