@@ -59,10 +59,10 @@ broken the level is completed. If the ball reaches the bottom of the game area, 
 The game has been tested on multiple browsers (Chrome, Safari, FireFox).
 
 <h2>Validating</h2>
-<p>Html was validated using <a href="https://validator.w3.org/" target="_blank">W3 Validator</a></p>
+<p>Html was validated using <a href="https://validator.w3.org/" rel="noopener" target="_blank">W3 Validator</a></p>
 
-<p>CSS was validated using <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3 Jigsaw</a></p>
-<p>JavaScript was validated using <a href="https://jshint.com/" target="_blank">JS Hint</a></p>
+<p>CSS was validated using <a href="https://jigsaw.w3.org/css-validator/" rel="noopener" target="_blank">W3 Jigsaw</a></p>
+<p>JavaScript was validated using <a href="https://jshint.com/" rel="noopener" target="_blank">JS Hint</a></p>
 <p>Lighthouse testing</p>
 <p>Am I Responsive</p>
 
@@ -204,14 +204,14 @@ the main loop.</p>
 <li>Music/Sound effects</li>
 </ul>
 <h1>Live Link</h1>
-A live link to this project can be found <a href="https://dani-brennan.github.io/project-2/" target="_blank">here.</a>
+A live link to this project can be found <a href="https://dani-brennan.github.io/project-2/" rel="noopener" target="_blank">here.</a>
 <h1>Credits</h1>
 <h2>Code</h2>
-To learn how to create the basic block breaker game elements, I learned from <a href="https://www.youtube.com/watch?v=3KWEud12Pxo" target="_blank">this tutorial.</a>
+To learn how to create the basic block breaker game elements, I learned from <a href="https://www.youtube.com/watch?v=3KWEud12Pxo" rel="noopener" target="_blank">this tutorial.</a>
 <h2>Images</h2>
-<a href="https://pixabay.com/illustrations/spectrum-psychedelic-green-gradient-553216/" target="_blank">Background image</a>
-<a href="https://pixabay.com/illustrations/background-pink-blue-gradient-1591229/" target="_blank">Block image</a>
+<a href="https://pixabay.com/illustrations/spectrum-psychedelic-green-gradient-553216/" rel="noopener" target="_blank">Background image</a>
+<a href="https://pixabay.com/illustrations/background-pink-blue-gradient-1591229/" rel="noopener" target="_blank">Block image</a>
 <h2>Wireframes</h2>
-The wireframes were created using <a href="https://balsamiq.com/">Balsamiq.</a>
+The wireframes were created using <a href="https://balsamiq.com/" rel="noopener" target="_blank">Balsamiq.</a>
 <h2>Icons</h2>
-Made by <a href= "https://fontawesome.com/" target="_blank">Fontawesome</a>
+Made by <a href= "https://fontawesome.com/" rel="noopener" target="_blank">Fontawesome</a>
