@@ -21,7 +21,10 @@ the game is to use a paddle to bounce a ball and bounce it off the walls to remo
 The font I used for this project is <a href="https://fonts.google.com/specimen/Press+Start+2P" target="_blank">Press Start 2P</a> sourced from Google Fonts.
 
 <h2>Wireframes - Balsamiq</h2>
-[screenshots]
+<p><img src="assets/images/wireframe-computer.png"></p>
+<p><img src="assets/images/wireframe-computer-howtoplay.png"></p>
+<p><img src="assets/images/wireframe-mobile.png"></p>
+<p><img src="assets/images/wireframe-mobile-howtoplay.png"></p>
 
 <h1>Technologies Used</h1>
 <p>HTML, CSS, JavaScript</p>
