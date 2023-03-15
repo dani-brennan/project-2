@@ -76,6 +76,10 @@ startButton.addEventListener('click', (e) => {
 	// Make the start game variable true
 	startGame = true;
 
+	resetButton.addEventListener('click', () => {
+		location.reload();
+	});
+
 	// If the start game variable is true and the ball is not at the bottom of the level, start the game
 	if (startGame == true && !ballPosition[1] <= 0) {
 
@@ -216,7 +220,10 @@ startButton.addEventListener('click', (e) => {
 					if (blocks.length === 0) {
 						scoreboard.innerHTML = 'You win!';
 						clearInterval(timerId);
-						document.removeEventListener('keydown', movePaddle);
+						resetButton.addEventListener('click', () => {
+							location.reload();
+							document.removeEventListener('keydown', movePaddle);
+						});
 					}
 				}
 			}
