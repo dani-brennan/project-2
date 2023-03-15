@@ -276,12 +276,12 @@ button {
         border-style: solid;
         border-width: 2px;
     }
-    #buttontouchleft {
+    #touch-move-paddle-left {
         height: 40px;
         width: 40px;
         font-size: 14px;
     }
-    #buttontouchright {
+    #touch-move-paddle-right {
         height: 40px;
         width: 40px;
         font-size: 14px;
