@@ -142,7 +142,9 @@ button {
     position: relative;
     margin: 2px 2px 2px 2px;
     padding: 4px;
-    
+    border-color: rgb(0, 119, 255);
+    border-width: 2px;
+    border-style: solid;
 }
 #buttontouchleft {
     height: 35px;
@@ -150,6 +152,9 @@ button {
     font-size: 12px;
     margin-right: 20px;
     color: #ff009d;
+    border-color: #ff009d;
+    border-width: 2px;
+    border-style: solid;
    
 }
 #buttontouchright {
@@ -157,13 +162,19 @@ button {
     width: 45px;
     font-size: 14px;
     margin-left: 20px;
-    color: #ff009d; 
+    color: #ff009d;
+    border-color: #ff009d;
+    border-width: 2px;
+    border-style: solid;
 }
 
 #instructionsButton {
     color:rgb(180, 0, 216);
     margin-top: 410px;
     height: 35px;
+    border-color: rgb(180, 0, 216);
+    border-width: 2px;
+    border-style: solid;
 }
 }
 
@@ -261,6 +272,9 @@ button {
         font-size: 14px;
         border: 3px;
         height: 40px;
+        border-color: #0057fa;
+        border-style: solid;
+        border-width: 2px;
     }
     #buttontouchleft {
         height: 40px;
