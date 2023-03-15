@@ -60,15 +60,12 @@ broken the level is completed. If the ball reaches the bottom of the game area, 
 <img src="assets/images/blocks.PNG">
 
 <h2>Testing</h2>
-The game has been tested on multiple browsers (Chrome, Safari, FireFox).
-
 <h3>Validating</h3>
 <p>Html was validated using <a href="https://validator.w3.org/" rel="noopener" target="_blank">W3 Validator</a></p>
 
 <p>CSS was validated using <a href="https://jigsaw.w3.org/css-validator/" rel="noopener" target="_blank">W3 Jigsaw</a></p>
 <p>JavaScript was validated using <a href="https://jshint.com/" rel="noopener" target="_blank">JS Hint</a></p>
 <p>Lighthouse testing</p>
-<p>Am I Responsive</p>
 
 <h3>Manual Testing</h3>
 <table>
@@ -83,17 +80,17 @@ The game has been tested on multiple browsers (Chrome, Safari, FireFox).
   <tr>
     <td>Chrome</td>
     <td>No changes to appearance or functionality</td>
-    <td>TBC</td>
+    <td>Pass</td>
   </tr>
   <tr>
     <td>Safari</td>
     <td>No changes to appearance or functionality</td>
-    <td>TBC</td>
+    <td>Pass</td>
   </tr>
   <tr>
     <td>Firefox</td>
     <td>No changes to appearance or functionality</td>
-    <td>TBC</td>
+    <td>Pass</td>
   </tr>
 </tbody>
 </table>
@@ -110,17 +107,17 @@ The game has been tested on multiple browsers (Chrome, Safari, FireFox).
   <tr>
     <td>Desktop</td>
     <td>No changes to appearance or functionality</td>
-    <td>TBC</td>
+    <td>Pass</td>
   </tr>
   <tr>
     <td>Tablet</td>
     <td>No changes to appearance or functionality</td>
-    <td>TBC</td>
+    <td>Pass</td>
   </tr>
   <tr>
     <td>Mobile</td>
     <td>No changes to appearance or functionality</td>
-    <td>TBC</td>
+    <td>Pass</td>
   </tr>
 </tbody>
 </table>
