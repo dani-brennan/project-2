@@ -63,7 +63,7 @@ p {
     padding-bottom: 8px;
     display: block;
     border-style: solid;
-    border-color:#242424;
+    border-color:#1dfa00;
     border-width: 2px;
     letter-spacing: 4px;
 }
@@ -79,7 +79,7 @@ p {
     padding-top: 10px;
     padding-bottom: 5px;
     border-style: solid;
-    border-color:#242424;
+    border-color:#0057fa;
     border-width: 2px;
     display: block;
 }
@@ -91,7 +91,7 @@ p {
     display: block;
     position: absolute;
     border-style: solid;
-    border-color:#242424;
+    border-color:#a200ff;
     border-width: 2px;
 }
 
