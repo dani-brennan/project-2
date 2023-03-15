@@ -10,6 +10,7 @@ const ballStart = [150, 50];
 const ballDiameter = 15;
 const scoreboard = document.querySelector('.scoreboard');
 
+//(Copyright (c) 2020 Ania Kubow)
 let xDirection = 2;
 let yDirection = 2;
 
@@ -33,6 +34,7 @@ const startButton = document.createElement('button');
 startButton.innerText = "Start Game";
 document.body.appendChild(startButton);
 
+//Turn the instructions on and off
 function instructionsOn() {
 	document.getElementById("overlay").style.display = "block";
 }
@@ -41,7 +43,6 @@ function instructionsOff() {
 	document.getElementById("overlay").style.display = "none";
 }
 
-//touch controls
 function drawPaddle() {
 	paddle.style.left = currentPosition[0] + 'px';
 	paddle.style.bottom = currentPosition[1] + 'px';
