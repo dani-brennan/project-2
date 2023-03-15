@@ -204,7 +204,17 @@ the main loop.</li>
 <li>Powerups</li>
 <li>Music/Sound effects</li>
 </ul>
+<h2>Deployment</h2>
+<p>I developed this project using GitPod which I then commited and pushed to GitHub.</p>
 
+<p>Follow the steps below to deploy the website to GitHub Pages from its GitHub repository.</p>
+<ul>
+<li>Log in to GitHub and locate the GitHub repository.</li>
+<li>Locate the settings button in the menu located at the top of the repository.</li>
+<li>Scroll down the settings page until you find the Pages section.</li>
+<li>Select Master Branch from the dropdown menu under Source.</li>
+<li>A link for the website will be generated.</li>
+</ul>
 <h2>Credits</h2>
 <h3>Code</h3>
 <p>To learn how to create the basic block breaker game elements, I learned from <a href="https://www.youtube.com/watch?v=3KWEud12Pxo" rel="noopener" target="_blank">this tutorial.</a></p>
