@@ -117,7 +117,9 @@ p {
 }
 
 .paddle {
+    background: url('../images/gradient-block.jpg')no-repeat center;
     background-color: rgb(145, 0, 241);
+    background-size: cover;
     width: 80px;
     height: 20px;
     border-radius: 8px;
