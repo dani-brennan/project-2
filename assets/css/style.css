@@ -161,7 +161,7 @@ button {
 }
 
 #instructionsButton {
-    color:rgb(255, 255, 255);
+    color:rgb(180, 0, 216);
     margin-top: 410px;
     height: 45px;
 }
@@ -274,7 +274,6 @@ button {
     }
     
     #instructionsButton {
-        color:rgb(255, 255, 255);
         margin-top: 410px;
         height: 40px;
     }
