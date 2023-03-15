@@ -6,6 +6,11 @@ body {
     background-size: cover;
 }
 
+h1 {
+    font-size:20px;
+}
+
+
 h2 {
     font-family: 'Press Start 2P';
     color:#ff009d;
@@ -167,6 +172,12 @@ button {
     h1 {
         font-size: 16px;
     }
+    body {
+        background: url('../images/background-rainbow.jpg')no-repeat center;
+        background-color: #000000;
+        background-size: cover;
+        
+    }
     #instructions{
         font-size: 17px;
     }
@@ -202,11 +213,10 @@ button {
     }
     
     .title {
-        
         font-size: 105%;
         width: 350px;
         height: 30px;
-        padding-top: 18px;
+        padding-top: 5px;
         padding-bottom: 10px;
         border-width: 3px;
     }
