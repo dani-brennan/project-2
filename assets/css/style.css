@@ -19,6 +19,9 @@ h3 {
     font-family: 'Press Start 2P';
     color:aqua;
 }
+p {
+    font-size: 18px;
+}
 #overlay {
     background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
