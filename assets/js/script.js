@@ -82,7 +82,7 @@ startButton.addEventListener('click', (e) => {
 	});
 
 	// If the start game variable is true and the ball is not at the bottom of the level, start the game
-	if (startGame == true && !ballPosition[1] <= 0) {
+	if (startGame == true) {
 
 		//create block (Copyright (c) 2020 Ania Kubow)
 		class block {
