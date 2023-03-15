@@ -105,7 +105,6 @@ startButton.addEventListener('click', (e) => {
 			new block(192, 340),
 			new block(222, 340),
 			new block(252, 340),
-			new block(282, 340),
 
 			//second row
 			new block(42, 310),
@@ -116,7 +115,6 @@ startButton.addEventListener('click', (e) => {
 			new block(192, 310),
 			new block(222, 310),
 			new block(252, 310),
-			new block(282, 310),
 			
 		];
 
