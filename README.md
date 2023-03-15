@@ -192,10 +192,10 @@ broken the level is completed. If the ball reaches the bottom of the game area, 
 <h3>Bugs</h3>
 <ul>
 <li>I encountered a bug where the ball would go through the paddle occasionally. I discovered that I had accidentally put blockWidth instead of paddleWidth, which meant that physically the block looked correct, but it was the size of the block, which has a smaller width, which resulted in the ball passing through.</li>
-<li>When centering the div containing the game, it resulted in the game area being offset i.e., The game
+<li>When trying to center the div containing the game, it resulted in the game area being offset i.e., The game
 looked like it was in the right place, but the game collision barriers were still floating to the left.
 Changing the game area position to absolute fixed this issue.</li> 
-<li>When implementing mobile touch controls I had a similar problem moving the paddle. The paddle would not move physically, but an invisible paddle still allowed me to bounce the ball. I solved this bug by moving mobile touch control functions, drawPaddle and movePaddle to outside of
+<li>When implementing mobile touch controls, I had a similar problem moving the paddle. The paddle would not move physically, but an invisible paddle still allowed me to bounce the ball. I solved this bug by moving mobile touch control functions, drawPaddle and movePaddle to outside of
 the main loop.</li>
 </ul>
 <h2>Future Implementations</h2>
@@ -206,7 +206,7 @@ the main loop.</li>
 <li>Music/Sound effects</li>
 </ul>
 <h2>Deployment</h2>
-<p>I developed this project using GitPod which I then commited and pushed to GitHub.</p>
+<p>I developed this project using GitPod which I then committed and pushed to GitHub.</p>
 
 <p>Follow the steps below to deploy the website to GitHub Pages from its GitHub repository.</p>
 <ul>
