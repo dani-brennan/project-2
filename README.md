@@ -1,5 +1,6 @@
 <h1>Block Game</h1>
 Block Game is a browser game inspired by one of my favourite childhood games, Breakout. The aim of the game is to use a paddle to bounce a ball and bounce it off the walls to remove all of the blocks. Breaking all the blocks will result in the level being completed.
+<img src="assets/images/amiresponsive.PNG">
 <h2>Live Link</h2>
 A live link to this project can be found <a href="https://dani-brennan.github.io/project-2/">here.</a>
 <h2>User Experience</h2>
@@ -33,13 +34,16 @@ The font I used for this project is <a href="https://fonts.google.com/specimen/P
 <h4>Top Bar</h4>
 <p>The top bar will have the game title, the score total as well as the notification of when the game is over or if
 the player has won.</p>
-[final screenshot]
+
 <h5>Game Title</h5>
 This area contains the title of the game.
-[final screenshot]
+<img src="assets/images/title.PNG">
 <h5>Score Total</h5>
 <p>The user will earn points for every block broken. The updated score will show here.</p>
-[final screenshot]
+<img src="assets/images/scoreboard.PNG">
+<h5>Game Win/Loss</h5>
+<img src="assets/images/win.PNG">
+<img src="assets/images/gameover.PNG">
 
 <h4>Game Area</h4>
 <p>This area will have the game. The player can interact with the paddle and bounce the ball towards the
@@ -47,13 +51,13 @@ blocks and off the walls. The top of the game area will have the blocks, the bot
 the paddle (which can only move along the x axis). The ball will spawn above the paddle but can move
 throughout the game area. If the ball collides with a block it will disappear. Once all the blocks have been
 broken the level is completed. If the ball reaches the bottom of the game area, it will result in game over.</p>
-[final screenshot]
+<img src="assets/images/game-area.PNG">
 <h5>Paddle</h5>
-[screenshot]
+<img src="assets/images/paddle.PNG">
 <h5>Ball</h5>
-[screenshot]
+<img src="assets/images/ball.PNG">
 <h5>Blocks</h5>
-[screenshot]
+<img src="assets/images/blocks.PNG">
 
 <h2>Testing</h2>
 The game has been tested on multiple browsers (Chrome, Safari, FireFox).
