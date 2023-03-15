@@ -131,32 +131,32 @@ button {
     background-color: rgb(0, 0, 0);
     color: rgb(0, 119, 255);
     font-family: 'Press Start 2P';
-    font-size: 12px;
+    font-size: 10px;
     text-transform: uppercase;
     text-align: center;
     border: 2px;
     border-style:outset;
     border-color:#0c0c0c;
     width: auto;
-    height: 30px;
+    height: 25px;
     position: relative;
     margin: 2px 2px 2px 2px;
-    padding: 8px;
+    padding: 4px;
     
 }
 #buttontouchleft {
-    height: 40px;
+    height: 30px;
     width: 40px;
     font-size: 12px;
-    margin-right: 35px;
+    margin-right: 30px;
     color: #ff009d;
    
 }
 #buttontouchright {
-    height: 45px;
+    height: 30px;
     width: 45px;
     font-size: 14px;
-    margin-left: 35px;
+    margin-left: 30px;
     color: #ff009d; 
 }
 
