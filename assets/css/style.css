@@ -1,191 +1,192 @@
 @media only screen and (min-width: 320px) {
     
-body {
-    background: url('../images/background-rainbow.jpg')no-repeat center;
-    background-color: #000000;
-    background-size: contain;
-}
+    body {
+        background: url('../images/background-rainbow.jpg')no-repeat center;
+        background-color: #000000;
+        background-size: contain;
+    }
 
-h1 {
-    font-size:20px;
-}
+    h1 {
+        font-size:20px;
+    }
 
-h2 {
-    font-family: 'Press Start 2P';
-    color:#ff009d;
-}
-h3 {
-    font-family: 'Press Start 2P', sans-serif;
-    color:aqua;
-}
-p {
-    font-size: 18px;
-}
+    h2 {
+        font-family: 'Press Start 2P';
+        color:#ff009d;
+    }
+    h3 {
+        font-family: 'Press Start 2P', sans-serif;
+        color:aqua;
+    }
+    p {
+        font-size: 18px;
+    }
 
-#overlay {
-    background-color: rgba(0, 0, 0, 0.9);
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    position: fixed;
-    display: none;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
+    #overlay {
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        position: fixed;
+        display: none;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
 
-.bubbleburst {
-    margin: auto;
-    margin-top: 30px;
-    width: 320px;
-}
+    .bubbleburst {
+        margin: auto;
+        margin-top: 30px;
+        width: 320px;
+    }
 
-#instructions{
-    color: white;
-    font-size: 14px;
-    position: absolute;
-    margin: auto;
-    text-align: center;
-}
+    #instructions{
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        margin: auto;
+        text-align: center;
+    }
 
-.title {
-    color: #15ff00;
-    background-color: #000000;
-    text-align: center;
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 95%;
-    width: 320px;
-    height: 20px;
-    padding-top: 8px;
-    padding-bottom: 14px;
-    display: block;
-    border-style: solid;
-    border-color:#1dfa00;
-    border-width: 2px;
-    letter-spacing: 4px;
-}
+    .title {
+        color: #15ff00;
+        background-color: #000000;
+        text-align: center;
+        font-family: 'Press Start 2P', sans-serif;
+        font-size: 95%;
+        width: 320px;
+        height: 20px;
+        padding-top: 8px;
+        padding-bottom: 14px;
+        display: block;
+        border-style: solid;
+        border-color:#1dfa00;
+        border-width: 2px;
+        letter-spacing: 4px;
+    }
 
-.scoreboard {
-    background-color:rgb(0, 0, 0);
-    color:rgb(0, 153, 255);
-    width: 320px;
-    height: 20px;
-    font-size: 90%;
-    font-family: 'Press Start 2P', sans-serif;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    border-style: solid;
-    border-color:#0057fa;
-    border-width: 2px;
-    display: block;
-}
+    .scoreboard {
+        background-color:rgb(0, 0, 0);
+        color:rgb(0, 153, 255);
+        width: 320px;
+        height: 20px;
+        font-size: 90%;
+        font-family: 'Press Start 2P', sans-serif;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        border-style: solid;
+        border-color:#0057fa;
+        border-width: 2px;
+        display: block;
+    }
 
-.gamearea {
-    background-color:rgb(0, 0, 0);
-    width: 320px;
-    height: 400px;
-    display: block;
-    position: absolute;
-    border-style: solid;
-    border-color:#a200ff;
-    border-width: 2px;
-}
+    .gamearea {
+        background-color:rgb(0, 0, 0);
+        width: 320px;
+        height: 400px;
+        display: block;
+        position: absolute;
+        border-style: solid;
+        border-color:#a200ff;
+        border-width: 2px;
+    }
 
-.block {
-    background-color:#000000;
-    background: url('../images/gradient-block.jpg')no-repeat center;
-    background-size: cover;
-    width: 25px;
-    height: 25px;
-    border: 2px;
-    border-style:double;
-    border-radius: 15px;
-    border-color:rgb(32, 32, 32);
-    position: absolute;
-}
+    .block {
+        background-color:#000000;
+        background: url('../images/gradient-block.jpg')no-repeat center;
+        background-size: cover;
+        width: 25px;
+        height: 25px;
+        border: 2px;
+        border-style:double;
+        border-radius: 15px;
+        border-color:rgb(32, 32, 32);
+        position: absolute;
+    }
 
-.ball {
-    background-color: rgb(255, 255, 255);
-    width: 15px;
-    height: 15px;
-    border-radius: 6px;
-    position: absolute;
-}
+    .ball {
+        background-color: rgb(255, 255, 255);
+        width: 15px;
+        height: 15px;
+        border-radius: 6px;
+        position: absolute;
+    }
 
-.paddle {
-    background: url('../images/gradient-block.jpg')no-repeat center;
-    background-color: rgb(145, 0, 241);
-    background-size: cover;
-    width: 80px;
-    height: 20px;
-    border-radius: 8px;
-    position: absolute;
-}
+    .paddle {
+        background: url('../images/gradient-block.jpg')no-repeat center;
+        background-color: rgb(145, 0, 241);
+        background-size: cover;
+        width: 80px;
+        height: 20px;
+        border-radius: 8px;
+        position: absolute;
+    }
 
-/*buttons*/
-button {
-    background-color: rgb(0, 0, 0);
-    color: rgb(0, 119, 255);
-    font-family: 'Press Start 2P';
-    font-size: 12px;
-    text-transform: uppercase;
-    text-align: center;
-    border: 2px;
-    border-style:outset;
-    border-color:#0c0c0c;
-    width: auto;
-    height: 35px;
-    position: relative;
-    margin: 2px 2px 2px 2px;
-    padding: 4px;
-    border-color: rgb(0, 119, 255);
-    border-width: 2px;
-    border-style: solid;
-}
-#buttontouchleft {
-    height: 45px;
-    width: 45px;
-    font-size: 14px;
-    margin-right: 28px;
-    color: #ff009d;
-    border-color: #ff009d;
-    border-width: 2px;
-    border-style: solid;
-   
-}
-#buttontouchright {
-    height: 45px;
-    width: 45px;
-    font-size: 14px;
-    margin-left: 20px;
-    color: #ff009d;
-    border-color: #ff009d;
-    border-width: 2px;
-    border-style: solid;
-}
-#instructions{
-    color: white;
-    font-size: 14px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%,-50%);
-}
+    /*buttons*/
+    button {
+        background-color: rgb(0, 0, 0);
+        color: rgb(0, 119, 255);
+        font-family: 'Press Start 2P';
+        font-size: 12px;
+        text-transform: uppercase;
+        text-align: center;
+        border: 2px;
+        border-style:outset;
+        border-color:#0c0c0c;
+        width: auto;
+        height: 35px;
+        position: relative;
+        margin: 2px 2px 2px 2px;
+        padding: 4px;
+        border-color: rgb(0, 119, 255);
+        border-width: 2px;
+        border-style: solid;
+    }
 
-#instructionsButton {
-    color:rgb(198, 74, 255);
-    margin-top: 410px;
-    margin-left: 42px;
-    margin-right: 42px;
-    height: 35px;
-    border-color: rgb(198, 74, 255);
-    border-width: 2px;
-    border-style: solid;
-    
-}
+    #buttontouchleft {
+        height: 45px;
+        width: 45px;
+        font-size: 14px;
+        margin-right: 28px;
+        color: #ff009d;
+        border-color: #ff009d;
+        border-width: 2px;
+        border-style: solid;
+    }
+
+    #buttontouchright {
+        height: 45px;
+        width: 45px;
+        font-size: 14px;
+        margin-left: 20px;
+        color: #ff009d;
+        border-color: #ff009d;
+        border-width: 2px;
+        border-style: solid;
+    }
+
+    #instructions{
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%,-50%);
+    }
+
+    #instructionsButton {
+        color:rgb(198, 74, 255);
+        margin-top: 410px;
+        margin-left: 42px;
+        margin-right: 42px;
+        height: 35px;
+        border-color: rgb(198, 74, 255);
+        border-width: 2px;
+        border-style: solid;
+    }
 }
 
 /* Extra small devices (600px) */
@@ -293,11 +294,13 @@ button {
         border-style: solid;
         border-width: 2px;
     }
+
     #touch-move-paddle-left {
         height: 40px;
         width: 40px;
         font-size: 14px;
     }
+    
     #touch-move-paddle-right {
         height: 40px;
         width: 40px;
@@ -310,5 +313,5 @@ button {
         margin-right: 24px;
         height: 40px;
     }
-    }
+}
     

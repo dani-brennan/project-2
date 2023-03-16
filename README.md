@@ -84,7 +84,7 @@ broken the level is completed. If the ball reaches the bottom of the game area, 
 <img src="assets/images/button-font-size-issue.PNG">
 <p>To fix this issue I changed the font size to 12px.</p>
 <img src="assets/images/lighthouse-check-2.PNG">
-Lighthouse score is now improved.
+<p>Lighthouse score is now improved.</p>
 <h3>Manual Testing</h3>
 <table>
 <thead>
