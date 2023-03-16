@@ -66,7 +66,8 @@ broken the level is completed. If the ball reaches the bottom of the game area, 
 <p>CSS was validated using <a href="https://jigsaw.w3.org/css-validator/" rel="noopener" target="_blank">W3 Jigsaw</a></p>
 <p>JavaScript was validated using <a href="https://jshint.com/" rel="noopener" target="_blank">JS Hint</a></p>
 <p>Lighthouse testing</p>
-
+<img src="assets/images/lighthouse-check-1.PNG">
+<img src="assets/images/button-accessibility-issue.PNG">
 <h3>Manual Testing</h3>
 <table>
 <thead>
