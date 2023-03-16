@@ -15,7 +15,7 @@ h2 {
     color:#ff009d;
 }
 h3 {
-    font-family: 'Press Start 2P';
+    font-family: 'Press Start 2P', sans-serif;
     color:aqua;
 }
 p {
@@ -56,7 +56,7 @@ p {
     color: #15ff00;
     background-color: #000000;
     text-align: center;
-    font-family: 'Press Start 2P';
+    font-family: 'Press Start 2P', sans-serif;
     font-size: 95%;
     width: 320px;
     height: 20px;
@@ -75,7 +75,7 @@ p {
     width: 320px;
     height: 20px;
     font-size: 90%;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', sans-serif;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -148,10 +148,10 @@ button {
     border-style: solid;
 }
 #buttontouchleft {
-    height: 35px;
+    height: 40px;
     width: 40px;
     font-size: 12px;
-    margin-right: 20px;
+    margin-right: 28px;
     color: #ff009d;
     border-color: #ff009d;
     border-width: 2px;
@@ -159,8 +159,8 @@ button {
    
 }
 #buttontouchright {
-    height: 35px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
     font-size: 14px;
     margin-left: 20px;
     color: #ff009d;
