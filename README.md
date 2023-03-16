@@ -66,8 +66,10 @@ broken the level is completed. If the ball reaches the bottom of the game area, 
 <h2>Testing</h2>
 <h3>Validating</h3>
 <p>Html was validated using <a href="https://validator.w3.org/" rel="noopener" target="_blank">W3 Validator</a></p>
+<p><img src="assets/images/html-validate.PNG"></p>
 
 <p>CSS was validated using <a href="https://jigsaw.w3.org/css-validator/" rel="noopener" target="_blank">W3 Jigsaw</a></p>
+<p><img src="assets/images/css-validate.PNG"></p>
 
 <p>JavaScript was validated using <a href="https://jshint.com/" rel="noopener" target="_blank">JS Hint</a></p>
 <img src="assets/images/jshint.PNG">
