@@ -1,38 +1,43 @@
 <h1>Bubble Burst</h1>
-Bubble Burst is a browser game inspired by one of my favourite childhood games, Breakout. The aim of the game is to use a paddle to bounce a ball off the walls to remove all of the blocks. By breaking all the blocks you will win the game.
-<p><img src="assets/images/amiresponsive.PNG"></p>
-<p><img src="assets/images/bubbleburst.PNG"></p>
-<p><img src="assets/images/bubbleburst-instructions.PNG"></p>
-<p><img src="assets/images/bubbleburst-mobile.PNG"></p>
-<p><img src="assets/images/bubbleburst-mobile-instructions.PNG"></p>
+<p>Bubble Burst is a browser game inspired by one of my favourite childhood games, Breakout. The aim of the game is to use a paddle to bounce a ball off the walls to remove all of the blocks. 
+By breaking all the blocks you will win the game.</p>
+  <p><img src="assets/images/amiresponsive.PNG"></p>
+  <p><img src="assets/images/bubbleburst.PNG"></p>
+  <p><img src="assets/images/bubbleburst-instructions.PNG"></p>
+  <p><img src="assets/images/bubbleburst-mobile.PNG"></p>
+  <p><img src="assets/images/bubbleburst-mobile-instructions.PNG"></p>
+
 <h2>Live Link</h2>
 A live link to this project can be found <a href="https://dani-brennan.github.io/project-2/">here.</a>
+
 <h2>User Experience</h2>
+
 <h3>Project Goals</h3>
-<ul>
+  <ul>
     <li>The website is fun, interactive and easy to navigate.</li>
     <li>Game instructions are clear, easy to follow and accessible to the player at all times.</li>
     <li>Game is playable on both computer and touch devices</li>
 </ul>
 <h3>User Stories</h3>
 <ul>
-<li>As a player, I want the game to be easy to understand</li>
-<li>As a player, I want the game to be fun to play</li>
-<li>As a player, I want to have access to instructions that teach me how to play the game</li>
-<li>As a player, I want to play on computer or on my phone</li>
-<li>As a player, I want game controls to be easy to use and access</li>
+  <li>As a player, I want the game to be easy to understand</li>
+  <li>As a player, I want the game to be fun to play</li>
+  <li>As a player, I want to have access to instructions that teach me how to play the game</li>
+  <li>As a player, I want to play on computer or on my phone</li>
+  <li>As a player, I want game controls to be easy to use and access</li>
 </ul>
+
 <h3>Typography</h3>
 The font I used for this project is <a href="https://fonts.google.com/specimen/Press+Start+2P" target="_blank">Press Start 2P</a> sourced from Google Fonts.
 
 <h3>Wireframes - Balsamiq</h3>
-<p><img src="assets/images/wireframe-computer.png"></p>
-<p><img src="assets/images/wireframe-computer-howtoplay.png"></p>
-<p><img src="assets/images/wireframe-mobile.png"></p>
-<p><img src="assets/images/wireframe-mobile-howtoplay.png"></p>
+  <p><img src="assets/images/wireframe-computer.png"></p>
+  <p><img src="assets/images/wireframe-computer-howtoplay.png"></p>
+  <p><img src="assets/images/wireframe-mobile.png"></p>
+  <p><img src="assets/images/wireframe-mobile-howtoplay.png"></p>
 
 <h2>Technologies Used</h2>
-<p>HTML, CSS, JavaScript</p>
+  <p>HTML, CSS, JavaScript</p>
 
 <h3>Features</h3>
 <h4>Top Bar</h4>
