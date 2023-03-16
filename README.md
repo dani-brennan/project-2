@@ -68,6 +68,13 @@ broken the level is completed. If the ball reaches the bottom of the game area, 
 <p>Lighthouse testing</p>
 <img src="assets/images/lighthouse-check-1.PNG">
 <img src="assets/images/button-accessibility-issue.PNG">
+<p>I added aria labels and values to the buttons to improve this.</p>
+<img src="assets/images/contrast-issue.PNG">
+<p>To fix this I changed the font to a brighter colour to improve the contrast.</p>
+<img src="assets/images/button-font-size-issue.PNG">
+<p>To fix this issue I changed the font size to 12px.</p>
+<img src="assets/images/lighthouse-check-2.PNG">
+Lighthouse score is now improved.
 <h3>Manual Testing</h3>
 <table>
 <thead>
@@ -226,8 +233,8 @@ the main loop.</li>
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
 <h3>Images</h3>
-<a href="https://pixabay.com/illustrations/spectrum-psychedelic-green-gradient-553216/" rel="noopener" target="_blank">Background image</a>
-<a href="https://pixabay.com/illustrations/background-pink-blue-gradient-1591229/" rel="noopener" target="_blank">Block image</a>
+<p><a href="https://pixabay.com/illustrations/spectrum-psychedelic-green-gradient-553216/" rel="noopener" target="_blank">Background image</a></p>
+<p><a href="https://pixabay.com/illustrations/background-pink-blue-gradient-1591229/" rel="noopener" target="_blank">Block/Paddle image</a></p>
 <h3>Wireframes</h3>
 The wireframes were created using <a href="https://balsamiq.com/" rel="noopener" target="_blank">Balsamiq.</a>
 <h3>Icons</h3>
