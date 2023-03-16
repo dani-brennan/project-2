@@ -148,8 +148,8 @@ button {
     border-style: solid;
 }
 #buttontouchleft {
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     font-size: 12px;
     margin-right: 28px;
     color: #ff009d;
@@ -159,8 +159,8 @@ button {
    
 }
 #buttontouchright {
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     font-size: 14px;
     margin-left: 20px;
     color: #ff009d;
