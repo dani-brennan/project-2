@@ -1,5 +1,5 @@
-<h1>Block Game</h1>
-Block Game is a browser game inspired by one of my favourite childhood games, Breakout. The aim of the game is to use a paddle to bounce a ball and bounce it off the walls to remove all of the blocks. Breaking all the blocks will result in the level being completed.
+<h1>Bubble Burst</h1>
+Bubble Burst is a browser game inspired by one of my favourite childhood games, Breakout. The aim of the game is to use a paddle to bounce a ball off the walls to remove all of the blocks. By breaking all the blocks you will win the game.
 <img src="assets/images/amiresponsive.PNG">
 <h2>Live Link</h2>
 A live link to this project can be found <a href="https://dani-brennan.github.io/project-2/">here.</a>
@@ -67,7 +67,7 @@ broken the level is completed. If the ball reaches the bottom of the game area, 
 
 <p>JavaScript was validated using <a href="https://jshint.com/" rel="noopener" target="_blank">JS Hint</a></p>
 <img src="assets/images/jshint.PNG">
-<p>After passing my javascript code through JSHint it notified me that there was missing semicolons.</p>
+<p>After passing my JavaScript code through JSHint it notified me that there was missing semicolons which I rectified.</p>
 <img src="assets/images/jshint-warnings.PNG">
 <p>These warnings do not affect the game play. If I move these functions out of the game loop the game does not function as intended. The four unused variables are referenced and used in the html file. The buttons use these functions to turn the instructions on and off and allow the user to click to move left and right.</p>
 

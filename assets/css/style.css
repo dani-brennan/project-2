@@ -169,10 +169,10 @@ button {
 }
 
 #instructionsButton {
-    color:rgb(180, 0, 216);
+    color:rgb(198, 74, 255);
     margin-top: 410px;
     height: 35px;
-    border-color: rgb(180, 0, 216);
+    border-color: rgb(198, 74, 255);
     border-width: 2px;
     border-style: solid;
 }
