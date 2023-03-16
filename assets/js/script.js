@@ -44,6 +44,7 @@ function instructionsOff() {
 }
 
 function drawPaddle() {
+	//(Copyright (c) 2020 Ania Kubow)
 	paddle.style.left = currentPosition[0] + 'px';
 	paddle.style.bottom = currentPosition[1] + 'px';
 }
