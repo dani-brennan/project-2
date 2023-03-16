@@ -64,7 +64,13 @@ broken the level is completed. If the ball reaches the bottom of the game area, 
 <p>Html was validated using <a href="https://validator.w3.org/" rel="noopener" target="_blank">W3 Validator</a></p>
 
 <p>CSS was validated using <a href="https://jigsaw.w3.org/css-validator/" rel="noopener" target="_blank">W3 Jigsaw</a></p>
+
 <p>JavaScript was validated using <a href="https://jshint.com/" rel="noopener" target="_blank">JS Hint</a></p>
+<img src="assets/images/jshint.PNG">
+<p>After passing my javascript code through JSHint it notified me that there was missing semicolons.</p>
+<img src="assets/images/jshint-warnings.PNG">
+<p>These warnings do not affect the game play. If I move these functions out of the game loop the game does not function as intended. The four unused variables are referenced and used in the html file. The buttons use these functions to turn the instructions on and off and allow the user to click to move left and right.</p>
+
 <p>Lighthouse testing</p>
 <img src="assets/images/lighthouse-check-1.PNG">
 <img src="assets/images/button-accessibility-issue.PNG">
