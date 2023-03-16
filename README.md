@@ -1,6 +1,10 @@
 <h1>Bubble Burst</h1>
 Bubble Burst is a browser game inspired by one of my favourite childhood games, Breakout. The aim of the game is to use a paddle to bounce a ball off the walls to remove all of the blocks. By breaking all the blocks you will win the game.
-<img src="assets/images/amiresponsive.PNG">
+<p><img src="assets/images/amiresponsive.PNG"></p>
+<p><img src="assets/images/bubbleburst.PNG"></p>
+<p><img src="assets/images/bubbleburst-instructions.PNG"></p>
+<p><img src="assets/images/bubbleburst-mobile.PNG"></p>
+<p><img src="assets/images/bubbleburst-mobile-instructions.PNG"></p>
 <h2>Live Link</h2>
 A live link to this project can be found <a href="https://dani-brennan.github.io/project-2/">here.</a>
 <h2>User Experience</h2>
